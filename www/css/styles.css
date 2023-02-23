@@ -1,0 +1,449 @@
+/** ================== Fonts =================== */
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
+}
+
+/** ============ Général ================ */
+
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: Poppins-Regular, sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container-login100 {
+  width: 100%;  
+  min-height: 100vh;
+  background: #9053c7;
+  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+h1, h2 {
+  color: rgb(0, 0, 0);
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+/** =============== Header =========== */
+header {
+  text-align: top;
+}
+header div {
+  text-align: center;
+}
+header h1 {
+  text-shadow: 2px 2px 2px grey;
+}
+.logo {
+  width: 3%;
+  position: absolute;
+}
+.logoUser {
+  width: 3%;
+  position: absolute;
+  margin-left: 97%;
+}
+/**==================== Bouton Jouer ================*/
+/*Cache les trois boutons */
+.hidden {
+  display: none;
+}
+
+.btn-lancement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-29 {
+  display: flex;
+  background-image: radial-gradient(100% 100% at 100% 0, #347688 0, #60318f 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-decoration: none;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+/** ============== Zone de jeu ============== */
+.container {
+  text-align: center;
+  margin-top: 50px;
+  position: static;
+}
+
+.game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top {
+  top: 65%;
+}
+
+.controls {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.board-container {
+  position: relative;
+}
+
+.board,
+.win {
+  border-radius: 5px;
+  box-shadow: 0 25px 50px rgb(33 33 33 / 25%);
+  background-color: rgba(36, 4, 52, 0.37);
+  transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
+  backface-visibility: hidden;
+}
+
+.board {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px;
+}
+
+.board-container.flipped .board {
+  transform: rotateY(180deg) rotateZ(50deg);
+}
+
+.board-container.flipped .win {
+  transform: rotateY(0) rotateZ(0);
+}
+
+/** ========== Règles ============ */
+section {
+  display: flex;
+  float: left;
+  /* position: absolute; */
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px black;
+  width: 20%;
+  padding: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-top: 80px;
+}
+
+section h2 {
+  text-align: center;
+}
+
+section p {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    visibility: hidden;
+  }
+
+}
+/** ========= Tableau des scores ======== */
+aside {
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px black;
+  float: right; 
+  width: 20%;
+  padding-top: 20px;
+  padding-bottom: 200px;
+  margin-top: 80px; 
+}
+
+aside h2 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  aside {
+    visibility: hidden;
+  }
+}
+/** ======= Partie gagnée ======= */
+/* bouton recommencer */
+.reloadButton {
+  text-align: center;
+  margin-top: 70%;
+}
+.reloadButton a {
+  color: black;
+  padding: 0.7em calc(0.7em * 1.2);
+  display: inline-block;
+  border: 3px solid transparent;
+  position: relative;
+  font-size: 1.5em;
+  cursor: pointer;
+  letter-spacing: 0.07em;
+}
+.reloadButton a .text {
+  font-family: proxima-nova, monospace;
+  transform: translate3d(0, 0.7em, 0);
+  display: block;
+  transition: transform 0.4s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+}
+.reloadButton a:after {
+  position: absolute;
+  content: "";
+  bottom: -3px;
+  left: calc(0.7em * 1.2);
+  right: calc(0.7em * 1.2);
+  height: 3px;
+  background: #6f00fc;
+  transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
+  transform-origin: left;
+}
+.reloadButton .line {
+  position: absolute;
+  background: #6f00fc;
+}
+.reloadButton .line.-right, .reloadButton .line.-left {
+  width: 3px;
+  bottom: -3px;
+  top: -3px;
+  transform: scale3d(1, 0, 1);
+}
+.reloadButton .line.-top, .reloadButton .line.-bottom {
+  height: 3px;
+  left: -3px;
+  right: -3px;
+  transform: scale3d(0, 1, 1);
+}
+.reloadButton .line.-right {
+  right: -3px;
+  transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s;
+  transform-origin: top;
+}
+.reloadButton .line.-top {
+  top: -3px;
+  transition: transform 0.08s linear 0.43s;
+  transform-origin: left;
+}
+.reloadButton .line.-left {
+  left: -3px;
+  transition: transform 0.08s linear 0.51s;
+  transform-origin: bottom;
+}
+.reloadButton .line.-bottom {
+  bottom: -3px;
+  transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
+  transform-origin: right;
+}
+.reloadButton a:hover .text,
+.reloadButton a:active .text {
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+}
+.reloadButton a:hover:after,
+.reloadButton a:active:after {
+  transform: scale3d(0, 1, 1);
+  right: -3px;
+  left: -3px;
+  transform-origin: right;
+  transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
+}
+.reloadButton a:hover .line,
+.reloadButton a:active .line {
+  transform: scale3d(1, 1, 1);
+}
+.reloadButton a:hover .line.-right,
+.reloadButton a:active .line.-right {
+  transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.2s;
+  transform-origin: bottom;
+}
+.reloadButton a:hover .line.-top,
+.reloadButton a:active .line.-top {
+  transition: transform 0.08s linear 0.4s;
+  transform-origin: right;
+}
+.reloadButton a:hover .line.-left,
+.reloadButton a:active .line.-left {
+  transition: transform 0.08s linear 0.48s;
+  transform-origin: top;
+}
+.reloadButton a:hover .line.-bottom,
+.reloadButton a:active .line.-bottom {
+  transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
+  transform-origin: left;
+}
+
+@font-face {
+  font-family: Fredoka;
+  src: url(./FredokaOne-Regular.ttf);
+}
+
+
+/** ================= Cartes =============== */
+button {
+  background: #282A3A;
+  color: #FFF;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: 0;
+  cursor: pointer;
+  font-family: Fredoka;
+  font-size: 18pt;
+}
+
+.disabled {
+  color: #757575;
+}
+
+.stats {
+  color: #FFF;
+  font-size: 14pt;
+}
+
+
+.card {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  background: #282A3A;
+  transition: transform .6s cubic-bezier(0.4, 0.0, 0.2, 1);
+  backface-visibility: hidden;
+}
+
+.card-back {
+  transform: rotateY(180deg) rotateZ(50deg);
+  font-size: 28pt;
+  user-select: none;
+  text-align: center;
+  line-height: 100px;
+  background: #FDF8E6;
+}
+
+.card.flipped .card-front {
+  transform: rotateY(180deg) rotateZ(50deg);
+}
+
+.card.flipped .card-back {
+  transform: rotateY(0) rotateZ(0);
+}
+
+.win {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: #e1d5ec;
+  transform: rotateY(180deg) rotateZ(50deg);
+}
+
+.win-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 21pt;
+  color: #282A3A;
+}
+
+.highlight {
+  color: #6f00fc;
+}
+
+.imageCard {
+  width: 100px;
+  height: 104px;
+}
+.w-450 {
+  width: 450px;
+}
+.vh-100 {
+  min-height: 100vh;
+}
+.w-350 {
+  width: 350px;
+}
+

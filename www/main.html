@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>MemoCello</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--===============================================================================================-->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+<body>
+	<div class="container-login100" id="container-login100">
+		<header>
+            <a href="main.html"><img src="images/logo.jpg" class="logo" alt="logo de l'application"></a>
+			<a href="home.php"><img src="images/user.png" class="logoUser" alt="logo des utilisateurs"></a>
+			<div class="titre"> 
+				<h1>MemoCello</h1>		
+			</div>			
+		</header>
+
+		<!-- <button id="play-button" class="bubbly-button">▶</button> -->
+			<div id="hidden-buttons" class="boutonsDeLancement btn-lancement">      
+				<a onclick="afficher16()"><button class="button-29 fade-in-down">16</button></a>
+				<a onclick="afficher20()"><button class="button-29 fade-in-down">20</button></a>
+				<a onclick="afficher36()"><button class="button-29 fade-in-down">36</button></a>
+			</div>
+	
+	<section>
+        <div class="regles">
+            <h2>Règles</h2>
+            <p>Choisissez si vous souhaitez jouer avec 16, 20 ou 30 cartes.<br/>
+                Ensuite cliquez sur deux cartes afin de les retourner. <br> Et si :<br/>
+                - Les deux cartes correspondent vous pouvez continuer<br/>
+                - Les deux cartes ne correspondent pas vous pouvez réessayer</p>        
+        </div>
+    </section>
+    <aside>
+        <div class="highscore">
+            <h2>Historique des parties</h2>
+            <ul id="history">
+            </ul>
+        </div>
+    </aside>
+    <div id="game" class="game hidden">
+        <div class="controls">
+            <div id="stats" class="stats">
+                <div class="moves">0 coups</div>
+                <div class="timer">temps: 0 sec</div>
+            </div>
+        </div>
+        <div id="board" class="board-container">
+            <div class="board" data-dimension="6"></div>
+            <div class="win">Vous avez gagné !</div>
+        </div>
+    </div>
+    </div>
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/game.js"></script>
+
+</body>
+</html>
