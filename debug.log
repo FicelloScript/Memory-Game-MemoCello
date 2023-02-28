@@ -3360,3 +3360,1534 @@
 - 13:45:40.843 DEBUG: OnBrowserDestroyed()
 - 13:45:40.125 INFO: Ended application
 - 13:45:40.125 INFO: --------------------------------------------------------
+- 14:09:31.000 INFO: --------------------------------------------------------
+- 14:09:31.000 INFO: Started application
+- 14:09:31.000 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 14:09:31.000 INFO: Log level = DEBUG4
+- 14:09:31.000 INFO: Starting Mongoose 3.9c web server
+- 14:09:31.000 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 14:09:31.000 INFO: Index files: index.html,index.php
+- 14:09:31.000 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 14:09:31.000 INFO: CGI pattern: **.php$
+- 14:09:31.000 INFO: Hide files patterns: 
+- 14:09:31.000 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:09:31.016 INFO: Web server url: http://127.0.0.1:62828/
+- 14:09:31.016 INFO: remote_debugging_port = 65290
+- 14:09:31.016 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=65290
+- 14:09:31.063 DEBUG: App::OnContextInitialized()
+- 14:09:31.063 DEBUG: Window max width/height = 1520/812
+- 14:09:31.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1378220
+- 14:09:31.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:09:31.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:09:31.078 DEBUG: StoreBrowserWindow(): hwnd = 1378220
+- 14:09:31.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=1648D06F00A3D353DE22F5F6329BB92C --mojo-platform-channel-handle=1788 /prefetch:2
+- 14:09:31.125 DEBUG: ClientHandler::OnAfterCreated()
+- 14:09:31.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:09:31.141 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:09:31.016 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=D447144B8BB377F7A19DD4FECD9A2262 --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D447144B8BB377F7A19DD4FECD9A2262 --renderer-client-id=3 --mojo-platform-channel-handle=2372 /prefetch:1
+[0223/140931.797:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:09:31.047 DEBUG: OnBrowserCreated()
+- 14:09:33.407 INFO: GET 200 /css/styles.css
+- 14:09:33.407 INFO: GET 200 /
+- 14:09:33.438 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 14:09:33.438 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:09:33.485 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62828/
+- 14:09:54.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62828/
+- 14:09:54.391 INFO: POST 302 /php/signup.php
+- 14:09:55.485 INFO: GET 200 /index.php?success=Votre%20compte%20%C3%A0%20bien%20%C3%A9t%C3%A9%20cr%C3%A9e%20!
+- 14:09:55.500 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:09:55.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62828/index.php?success=Votre%20compte%20%C3%A0%20bien%20%C3%A9t%C3%A9%20cr%C3%A9e%20!
+- 14:09:55.360 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62828/index.php?success=Votre%20compte%20%C3%A0%20bien%20%C3%A9t%C3%A9%20cr%C3%A9e%20!
+- 14:09:56.469 INFO: GET 200 /login.php
+- 14:09:56.485 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:09:56.485 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62828/login.php
+- 14:10:01.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62828/login.php
+- 14:10:02.422 INFO: GET 200 /main.html
+- 14:10:02.422 INFO: POST 302 /php/login.php
+- 14:10:02.438 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 14:10:02.438 INFO: GET 200 /vendor/animate/animate.css
+- 14:10:02.438 INFO: GET 200 /vendor/select2/select2.min.css
+- 14:10:02.438 INFO: GET 200 /fonts/font-awesome-4.7.0/css/font-awesome.min.css
+- 14:10:02.438 INFO: GET 200 /vendor/css-hamburgers/hamburgers.min.css
+- 14:10:02.438 INFO: GET 200 /css/util.css
+- 14:10:02.266 DEBUG: OnContextCreated()
+- 14:10:02.438 INFO: GET 200 /vendor/jquery/jquery-3.2.1.min.js
+- 14:10:02.453 INFO: GET 200 /vendor/bootstrap/js/popper.js
+- 14:10:02.453 INFO: GET 200 /vendor/bootstrap/js/bootstrap.min.js
+- 14:10:02.453 INFO: GET 200 /vendor/tilt/tilt.jquery.min.js
+- 14:10:02.453 INFO: GET 200 /vendor/select2/select2.min.js
+- 14:10:02.453 INFO: GET 200 /js/game.js
+- 14:10:02.453 INFO: GET 200 /images/logo.jpg
+- 14:10:02.469 INFO: GET 200 /images/user.png
+- 14:10:02.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62828/main.html
+- 14:10:06.313 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62828/main.html
+- 14:10:07.266 DEBUG: OnContextCreated()
+- 14:10:07.438 INFO: GET 200 /home.php
+- 14:10:07.453 INFO: GET 200 /upload/default-pp.png
+- 14:10:07.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62828/home.php
+- 14:10:08.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62828/home.php
+- 14:10:08.735 DEBUG: OnContextCreated()
+- 14:10:08.907 INFO: GET 200 /edit.php
+- 14:10:08.922 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:10:08.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62828/edit.php
+- 14:10:14.641 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62828/edit.php
+- 14:10:14.782 INFO: POST 302 /php/edit.php
+- 14:10:14.703 DEBUG: OnContextCreated()
+- 14:10:14.891 INFO: GET 200 /edit.php?success=Votre%20compte%20%C3%A0%20bien%20%C3%A9t%C3%A9%20modifi%C3%A9%20!
+- 14:10:14.907 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:10:14.907 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62828/edit.php?success=Votre%20compte%20%C3%A0%20bien%20%C3%A9t%C3%A9%20modifi%C3%A9%20!
+- 14:10:15.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62828/edit.php?success=Votre%20compte%20%C3%A0%20bien%20%C3%A9t%C3%A9%20modifi%C3%A9%20!
+- 14:10:15.594 DEBUG: OnContextCreated()
+- 14:10:15.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62828/main.html
+[0223/141017.504:INFO:CONSOLE(37)] "La partie n'a pas encore commencé", source: http://127.0.0.1:62828/js/game.js (37)
+[0223/141121.351:INFO:CONSOLE(22)] "La partie est lancée", source: http://127.0.0.1:62828/js/game.js (22)
+[0223/141121.352:INFO:CONSOLE(146)] "ici", source: http://127.0.0.1:62828/js/game.js (146)
+[0223/141127.671:INFO:CONSOLE(6)] "La partie est lancée", source: http://127.0.0.1:62828/js/game.js (6)
+- 14:11:33.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62828/main.html
+- 14:11:33.422 DEBUG: OnContextCreated()
+- 14:11:33.594 INFO: GET 200 /home.php
+- 14:11:33.610 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62828/home.php
+- 14:11:35.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62828/home.php
+- 14:11:35.625 INFO: GET 302 /logout.php
+- 14:11:35.547 DEBUG: OnContextCreated()
+- 14:11:35.719 INFO: GET 200 /login.php
+- 14:11:35.735 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:11:35.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62828/login.php
+- 14:11:48.438 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62828/login.php
+- 14:11:48.610 INFO: GET 304 /main.html
+- 14:11:48.453 DEBUG: OnContextCreated()
+- 14:11:48.625 INFO: POST 302 /php/login.php
+- 14:11:48.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62828/main.html
+- 14:24:08.000 INFO: --------------------------------------------------------
+- 14:24:08.000 INFO: Started application
+- 14:24:08.000 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 14:24:08.000 INFO: Log level = DEBUG4
+- 14:24:08.000 INFO: Starting Mongoose 3.9c web server
+- 14:24:08.000 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 14:24:08.000 INFO: Index files: index.html,index.php
+- 14:24:08.000 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 14:24:08.000 INFO: CGI pattern: **.php$
+- 14:24:08.000 INFO: Hide files patterns: 
+- 14:24:08.000 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:24:08.000 INFO: Web server url: http://127.0.0.1:63019/
+- 14:24:08.000 INFO: remote_debugging_port = 58612
+- 14:24:08.000 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=58612
+- 14:24:08.047 DEBUG: App::OnContextInitialized()
+- 14:24:08.047 DEBUG: Window max width/height = 1520/812
+- 14:24:08.063 DEBUG: GetBrowserWindow(): not found, hwnd = 133236
+- 14:24:08.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:24:08.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:24:08.063 DEBUG: StoreBrowserWindow(): hwnd = 133236
+- 14:24:08.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=42A25461C4D0404CBBEF50C53D1E6803 --mojo-platform-channel-handle=1796 /prefetch:2
+- 14:24:08.110 DEBUG: ClientHandler::OnAfterCreated()
+- 14:24:08.110 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:24:08.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:24:09.000 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=75141227020F4A0C4C78861DF4CAFB25 --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=75141227020F4A0C4C78861DF4CAFB25 --renderer-client-id=3 --mojo-platform-channel-handle=2296 /prefetch:1
+[0223/142409.018:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:24:09.031 DEBUG: OnBrowserCreated()
+[0223/142409.050:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0223/142409.050:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\webcache\GPUCache to C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\webcache\old_GPUCache_000
+[0223/142409.050:ERROR:disk_cache.cc(132)] Unable to create cache
+[0223/142409.050:ERROR:shader_disk_cache.cc(593)] Shader Cache Creation failed: -2
+[0223/142409.054:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0223/142409.054:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\webcache\Cache to C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\webcache\old_Cache_000
+[0223/142409.054:ERROR:disk_cache.cc(132)] Unable to create cache
+- 14:24:10.344 INFO: GET 200 /css/styles.css
+- 14:24:10.344 INFO: GET 200 /
+- 14:24:10.453 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:24:10.453 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 14:24:10.485 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63019/
+- 14:24:34.110 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63019/
+- 14:24:35.313 INFO: POST 200 /php/signup.php
+- 14:24:35.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63019/php/signup.php
+- 14:24:38.875 DEBUG: WM_DESTROY
+- 14:24:38.875 DEBUG: RemoveBrowserWindow(): hwnd = 133236
+- 14:24:38.875 INFO: Stopping Mongoose web server
+- 14:24:38.875 DEBUG: Mongoose webserver stopped immediately
+- 14:24:38.891 DEBUG: OnBeforeClose() hwnd=133234
+- 14:24:38.891 DEBUG: RemoveBrowserWindow(): hwnd = 133234
+- 14:24:38.891 DEBUG: GetBrowserWindow(): not found, hwnd = 133234
+- 14:24:38.891 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:24:38.891 DEBUG: Calling CefQuitMessageLoop()
+- 14:24:38.734 DEBUG: OnBrowserDestroyed()
+- 14:24:38.922 INFO: Ended application
+- 14:24:38.922 INFO: --------------------------------------------------------
+- 14:24:40.000 INFO: --------------------------------------------------------
+- 14:24:40.000 INFO: Started application
+- 14:24:40.000 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 14:24:40.000 INFO: Log level = DEBUG4
+- 14:24:40.000 INFO: Starting Mongoose 3.9c web server
+- 14:24:40.000 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 14:24:40.000 INFO: Index files: index.html,index.php
+- 14:24:40.000 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 14:24:40.000 INFO: CGI pattern: **.php$
+- 14:24:40.000 INFO: Hide files patterns: 
+- 14:24:40.000 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:24:40.000 INFO: Web server url: http://127.0.0.1:63031/
+- 14:24:40.000 INFO: remote_debugging_port = 62277
+- 14:24:40.000 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=62277
+- 14:24:40.047 DEBUG: App::OnContextInitialized()
+- 14:24:40.047 DEBUG: Window max width/height = 1520/812
+- 14:24:40.063 DEBUG: GetBrowserWindow(): not found, hwnd = 591922
+- 14:24:40.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:24:40.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:24:40.063 DEBUG: StoreBrowserWindow(): hwnd = 591922
+- 14:24:40.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=4F6E694D3518E0CA5257FC3CAC152995 --mojo-platform-channel-handle=1796 /prefetch:2
+- 14:24:40.109 DEBUG: ClientHandler::OnAfterCreated()
+- 14:24:40.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:24:40.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:24:40.000 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=FFD0F13A20829562209DEC83D4308806 --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=FFD0F13A20829562209DEC83D4308806 --renderer-client-id=3 --mojo-platform-channel-handle=2388 /prefetch:1
+[0223/142440.351:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:24:40.032 DEBUG: OnBrowserCreated()
+[0223/142440.387:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0223/142440.387:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\webcache\GPUCache to C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\webcache\old_GPUCache_000
+[0223/142440.387:ERROR:disk_cache.cc(132)] Unable to create cache
+[0223/142440.387:ERROR:shader_disk_cache.cc(593)] Shader Cache Creation failed: -2
+[0223/142440.391:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0223/142440.391:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\webcache\Cache to C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\webcache\old_Cache_000
+[0223/142440.391:ERROR:disk_cache.cc(132)] Unable to create cache
+- 14:24:41.328 INFO: GET 200 /css/styles.css
+- 14:24:41.328 INFO: GET 200 /
+- 14:24:41.453 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:24:41.453 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 14:24:41.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63031/
+- 14:24:43.391 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63031/
+- 14:24:43.484 INFO: GET 200 /css/styles.css
+- 14:24:43.500 INFO: GET 200 /login.php
+- 14:24:43.531 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:24:43.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63031/login.php
+- 14:24:54.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63031/login.php
+- 14:24:54.297 INFO: GET 200 /main.html
+- 14:24:54.297 INFO: POST 302 /php/login.php
+- 14:24:54.313 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 14:24:54.313 INFO: GET 200 /fonts/font-awesome-4.7.0/css/font-awesome.min.css
+- 14:24:54.313 INFO: GET 200 /vendor/css-hamburgers/hamburgers.min.css
+- 14:24:54.313 INFO: GET 200 /vendor/animate/animate.css
+- 14:24:54.313 INFO: GET 200 /vendor/select2/select2.min.css
+- 14:24:54.313 INFO: GET 200 /css/util.css
+- 14:24:54.157 DEBUG: OnContextCreated()
+- 14:24:54.313 INFO: GET 200 /css/styles.css
+- 14:24:54.313 INFO: GET 200 /vendor/jquery/jquery-3.2.1.min.js
+- 14:24:54.313 INFO: GET 200 /vendor/tilt/tilt.jquery.min.js
+- 14:24:54.313 INFO: GET 200 /vendor/select2/select2.min.js
+- 14:24:54.313 INFO: GET 200 /vendor/bootstrap/js/bootstrap.min.js
+- 14:24:54.313 INFO: GET 200 /js/game.js
+- 14:24:54.313 INFO: GET 200 /vendor/bootstrap/js/popper.js
+- 14:24:54.313 INFO: GET 200 /images/logo.jpg
+- 14:24:54.313 INFO: GET 200 /images/user.png
+- 14:24:54.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63031/main.html
+- 14:24:56.844 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63031/main.html
+- 14:24:56.797 DEBUG: OnContextCreated()
+- 14:24:56.969 INFO: GET 200 /home.php
+- 14:24:56.969 INFO: GET 200 /css/styles.css
+- 14:24:56.000 INFO: GET 200 /upload/uwu63f76913252c10.31214516.jpg
+- 14:24:56.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63031/home.php
+- 14:24:58.391 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63031/home.php
+- 14:24:58.500 INFO: GET 302 /logout.php
+- 14:24:58.422 DEBUG: OnContextCreated()
+- 14:24:58.594 INFO: GET 200 /login.php
+- 14:24:58.625 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:24:58.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63031/login.php
+- 14:25:01.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63031/login.php
+- 14:25:01.578 DEBUG: OnContextCreated()
+- 14:25:01.734 INFO: GET 200 /index.php
+- 14:25:01.734 INFO: GET 200 /css/styles.css
+- 14:25:01.781 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:25:01.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63031/index.php
+- 14:25:03.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63031/index.php
+- 14:25:03.047 DEBUG: OnContextCreated()
+- 14:25:03.203 INFO: GET 200 /css/styles.css
+- 14:25:03.203 INFO: GET 200 /login.php
+- 14:25:03.250 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:25:03.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63031/login.php
+- 14:25:06.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63031/login.php
+- 14:25:07.922 INFO: GET 200 /main.html
+- 14:25:07.766 DEBUG: OnContextCreated()
+- 14:25:07.922 INFO: POST 302 /php/login.php
+- 14:25:07.938 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 14:25:07.938 INFO: GET 200 /fonts/font-awesome-4.7.0/css/font-awesome.min.css
+- 14:25:07.938 INFO: GET 200 /vendor/css-hamburgers/hamburgers.min.css
+- 14:25:07.938 INFO: GET 200 /vendor/animate/animate.css
+- 14:25:07.938 INFO: GET 200 /vendor/select2/select2.min.css
+- 14:25:07.938 INFO: GET 200 /css/util.css
+- 14:25:07.938 INFO: GET 200 /css/styles.css
+- 14:25:07.938 INFO: GET 200 /vendor/jquery/jquery-3.2.1.min.js
+- 14:25:07.938 INFO: GET 200 /vendor/tilt/tilt.jquery.min.js
+- 14:25:07.938 INFO: GET 200 /vendor/bootstrap/js/popper.js
+- 14:25:07.938 INFO: GET 200 /vendor/bootstrap/js/bootstrap.min.js
+- 14:25:07.938 INFO: GET 200 /js/game.js
+- 14:25:07.938 INFO: GET 200 /vendor/select2/select2.min.js
+- 14:25:07.953 INFO: GET 200 /images/logo.jpg
+- 14:25:07.953 INFO: GET 200 /images/user.png
+- 14:25:07.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63031/main.html
+- 14:25:08.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63031/main.html
+- 14:25:08.860 DEBUG: OnContextCreated()
+- 14:25:08.031 INFO: GET 200 /css/styles.css
+- 14:25:08.031 INFO: GET 200 /home.php
+- 14:25:08.047 INFO: GET 200 /upload/uwu63f76913252c10.31214516.jpg
+- 14:25:08.063 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63031/home.php
+- 14:25:09.063 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63031/home.php
+- 14:25:09.016 DEBUG: OnContextCreated()
+- 14:25:09.172 INFO: GET 200 /edit.php
+- 14:25:09.203 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:25:09.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63031/edit.php
+- 14:25:17.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63031/edit.php
+- 14:25:17.625 INFO: POST 302 /php/edit.php
+- 14:25:17.578 DEBUG: OnContextCreated()
+- 14:25:17.734 INFO: GET 200 /css/styles.css
+- 14:25:17.734 INFO: GET 200 /edit.php?success=Votre%20compte%20%C3%A0%20bien%20%C3%A9t%C3%A9%20modifi%C3%A9.
+- 14:25:17.750 INFO: GET 200 /upload/uwu63f7693dc2a8d5.50776051.png
+- 14:25:17.781 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:25:17.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63031/edit.php?success=Votre%20compte%20%C3%A0%20bien%20%C3%A9t%C3%A9%20modifi%C3%A9.
+- 14:25:26.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63031/edit.php?success=Votre%20compte%20%C3%A0%20bien%20%C3%A9t%C3%A9%20modifi%C3%A9.
+- 14:25:26.266 INFO: GET 200 /main.html
+- 14:25:26.110 DEBUG: OnContextCreated()
+- 14:25:26.281 INFO: GET 200 /vendor/animate/animate.css
+- 14:25:26.281 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 14:25:26.281 INFO: GET 200 /vendor/css-hamburgers/hamburgers.min.css
+- 14:25:26.281 INFO: GET 200 /fonts/font-awesome-4.7.0/css/font-awesome.min.css
+- 14:25:26.281 INFO: GET 200 /vendor/select2/select2.min.css
+- 14:25:26.281 INFO: GET 200 /css/util.css
+- 14:25:26.281 INFO: GET 200 /css/styles.css
+- 14:25:26.281 INFO: GET 200 /vendor/jquery/jquery-3.2.1.min.js
+- 14:25:26.281 INFO: GET 200 /vendor/bootstrap/js/bootstrap.min.js
+- 14:25:26.281 INFO: GET 200 /vendor/bootstrap/js/popper.js
+- 14:25:26.281 INFO: GET 200 /vendor/tilt/tilt.jquery.min.js
+- 14:25:26.281 INFO: GET 200 /js/game.js
+- 14:25:26.281 INFO: GET 200 /vendor/select2/select2.min.js
+- 14:25:26.297 INFO: GET 200 /images/logo.jpg
+- 14:25:26.297 INFO: GET 200 /images/user.png
+- 14:25:26.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63031/main.html
+- 14:25:29.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63031/main.html
+- 14:25:29.203 DEBUG: OnContextCreated()
+- 14:25:29.375 INFO: GET 200 /home.php
+- 14:25:29.375 INFO: GET 200 /css/styles.css
+- 14:25:29.391 INFO: GET 200 /upload/uwu63f7693dc2a8d5.50776051.png
+- 14:25:29.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63031/home.php
+- 14:25:31.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63031/home.php
+- 14:25:31.266 INFO: GET 302 /logout.php
+- 14:25:31.203 DEBUG: OnContextCreated()
+- 14:25:31.375 INFO: GET 200 /login.php
+- 14:25:31.406 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:25:31.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63031/login.php
+- 14:28:31.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63031/login.php
+- 14:28:31.360 DEBUG: OnContextCreated()
+- 14:28:31.531 INFO: GET 200 /css/styles.css
+- 14:28:31.531 INFO: GET 200 /index.php
+- 14:28:31.578 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:28:31.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63031/index.php
+- 14:28:46.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63031/index.php
+- 14:28:47.766 DEBUG: OnContextCreated()
+- 14:28:47.938 INFO: POST 200 /php/signup.php
+- 14:28:47.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63031/php/signup.php
+- 14:30:03.922 DEBUG: WM_DESTROY
+- 14:30:03.922 DEBUG: RemoveBrowserWindow(): hwnd = 1378220
+- 14:30:03.922 INFO: Stopping Mongoose web server
+- 14:30:03.922 DEBUG: Mongoose webserver stopped immediately
+- 14:30:03.938 DEBUG: OnBeforeClose() hwnd=1050354
+- 14:30:03.938 DEBUG: RemoveBrowserWindow(): hwnd = 1050354
+- 14:30:03.938 DEBUG: GetBrowserWindow(): not found, hwnd = 1050354
+- 14:30:03.938 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:30:03.938 DEBUG: Calling CefQuitMessageLoop()
+- 14:30:03.781 DEBUG: OnBrowserDestroyed()
+- 14:30:03.969 INFO: Ended application
+- 14:30:03.969 INFO: --------------------------------------------------------
+- 14:35:25.359 DEBUG: WM_DESTROY
+- 14:35:25.359 DEBUG: RemoveBrowserWindow(): hwnd = 591922
+- 14:35:25.359 INFO: Stopping Mongoose web server
+- 14:35:25.359 DEBUG: Mongoose webserver stopped immediately
+- 14:35:25.375 DEBUG: OnBeforeClose() hwnd=198768
+- 14:35:25.375 DEBUG: RemoveBrowserWindow(): hwnd = 198768
+- 14:35:25.375 DEBUG: GetBrowserWindow(): not found, hwnd = 198768
+- 14:35:25.375 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:35:25.375 DEBUG: Calling CefQuitMessageLoop()
+- 14:35:25.219 DEBUG: OnBrowserDestroyed()
+- 14:35:25.391 INFO: Ended application
+- 14:35:25.391 INFO: --------------------------------------------------------
+- 14:35:28.000 INFO: --------------------------------------------------------
+- 14:35:28.000 INFO: Started application
+- 14:35:28.000 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 14:35:28.000 INFO: Log level = DEBUG4
+- 14:35:28.000 INFO: Starting Mongoose 3.9c web server
+- 14:35:28.000 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 14:35:28.000 INFO: Index files: index.html,index.php
+- 14:35:28.000 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 14:35:28.000 INFO: CGI pattern: **.php$
+- 14:35:28.000 INFO: Hide files patterns: 
+- 14:35:28.000 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:35:28.000 INFO: Web server url: http://127.0.0.1:53491/
+- 14:35:28.000 INFO: remote_debugging_port = 63968
+- 14:35:28.000 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=63968
+- 14:35:28.047 DEBUG: App::OnContextInitialized()
+- 14:35:28.047 DEBUG: Window max width/height = 1520/812
+- 14:35:28.062 DEBUG: GetBrowserWindow(): not found, hwnd = 2361066
+- 14:35:28.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:35:28.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:35:28.062 DEBUG: StoreBrowserWindow(): hwnd = 2361066
+- 14:35:28.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=78AD2F7C20276AD2367E3596F31B7897 --mojo-platform-channel-handle=1792 /prefetch:2
+- 14:35:28.125 DEBUG: ClientHandler::OnAfterCreated()
+- 14:35:28.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:35:28.140 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:35:28.000 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=F738B21B827B5D10DB6A571D2567045F --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=F738B21B827B5D10DB6A571D2567045F --renderer-client-id=3 --mojo-platform-channel-handle=2372 /prefetch:1
+[0223/143528.504:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:35:28.031 DEBUG: OnBrowserCreated()
+- 14:35:29.406 INFO: GET 200 /css/styles.css
+- 14:35:29.422 INFO: GET 200 /
+- 14:35:29.437 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:35:29.437 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 14:35:29.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53491/
+- 14:36:26.390 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53491/
+- 14:36:26.593 INFO: POST 200 /php/signup.php
+- 14:36:26.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53491/php/signup.php
+- 14:36:40.672 DEBUG: WM_DESTROY
+- 14:36:40.672 DEBUG: RemoveBrowserWindow(): hwnd = 2361066
+- 14:36:40.672 INFO: Stopping Mongoose web server
+- 14:36:40.672 DEBUG: Mongoose webserver stopped immediately
+- 14:36:41.672 DEBUG: OnBeforeClose() hwnd=329750
+- 14:36:41.672 DEBUG: RemoveBrowserWindow(): hwnd = 329750
+- 14:36:41.672 DEBUG: GetBrowserWindow(): not found, hwnd = 329750
+- 14:36:41.672 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:36:41.672 DEBUG: Calling CefQuitMessageLoop()
+- 14:36:41.500 DEBUG: OnBrowserDestroyed()
+- 14:36:41.703 INFO: Ended application
+- 14:36:41.703 INFO: --------------------------------------------------------
+- 14:36:43.000 INFO: --------------------------------------------------------
+- 14:36:43.000 INFO: Started application
+- 14:36:43.000 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 14:36:43.000 INFO: Log level = DEBUG4
+- 14:36:43.000 INFO: Starting Mongoose 3.9c web server
+- 14:36:43.016 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 14:36:43.016 INFO: Index files: index.html,index.php
+- 14:36:43.016 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 14:36:43.016 INFO: CGI pattern: **.php$
+- 14:36:43.016 INFO: Hide files patterns: 
+- 14:36:43.016 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:36:43.016 INFO: Web server url: http://127.0.0.1:53509/
+- 14:36:43.016 INFO: remote_debugging_port = 56277
+- 14:36:43.016 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=56277
+- 14:36:43.062 DEBUG: App::OnContextInitialized()
+- 14:36:43.062 DEBUG: Window max width/height = 1520/812
+- 14:36:43.078 DEBUG: GetBrowserWindow(): not found, hwnd = 395388
+- 14:36:43.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:36:43.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:36:43.078 DEBUG: StoreBrowserWindow(): hwnd = 395388
+- 14:36:43.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=C13C8A14C9F598A259F79229DDD9787F --mojo-platform-channel-handle=1796 /prefetch:2
+- 14:36:43.141 DEBUG: ClientHandler::OnAfterCreated()
+- 14:36:43.141 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:36:43.156 DEBUG: OnLoadingStateChange: loading=1, url=
+[0223/143643.418:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:36:43.000 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=49890ED48B484CE9F49174DCA2AD2DF8 --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=49890ED48B484CE9F49174DCA2AD2DF8 --renderer-client-id=3 --mojo-platform-channel-handle=2376 /prefetch:1
+- 14:36:43.047 DEBUG: OnBrowserCreated()
+- 14:36:44.406 INFO: GET 200 /css/styles.css
+- 14:36:44.406 INFO: GET 200 /
+- 14:36:44.437 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 14:36:44.437 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:36:44.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53509/
+- 14:36:58.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53509/
+- 14:36:59.937 INFO: POST 200 /php/signup.php
+- 14:36:59.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53509/php/signup.php
+- 14:37:19.953 DEBUG: WM_DESTROY
+- 14:37:19.953 DEBUG: RemoveBrowserWindow(): hwnd = 395388
+- 14:37:19.953 INFO: Stopping Mongoose web server
+- 14:37:19.953 DEBUG: Mongoose webserver stopped immediately
+- 14:37:19.953 DEBUG: OnBeforeClose() hwnd=984526
+- 14:37:19.953 DEBUG: RemoveBrowserWindow(): hwnd = 984526
+- 14:37:19.953 DEBUG: GetBrowserWindow(): not found, hwnd = 984526
+- 14:37:19.953 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:37:19.953 DEBUG: Calling CefQuitMessageLoop()
+- 14:37:19.782 DEBUG: OnBrowserDestroyed()
+- 14:37:19.984 INFO: Ended application
+- 14:37:19.984 INFO: --------------------------------------------------------
+- 14:38:11.000 INFO: --------------------------------------------------------
+- 14:38:11.000 INFO: Started application
+- 14:38:11.000 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 14:38:11.000 INFO: Log level = DEBUG4
+- 14:38:11.000 INFO: Starting Mongoose 3.9c web server
+- 14:38:11.000 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 14:38:11.000 INFO: Index files: index.html,index.php
+- 14:38:11.000 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 14:38:11.000 INFO: CGI pattern: **.php$
+- 14:38:11.000 INFO: Hide files patterns: 
+- 14:38:11.000 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:38:11.016 INFO: Web server url: http://127.0.0.1:53550/
+- 14:38:11.016 INFO: remote_debugging_port = 52641
+- 14:38:11.016 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=52641
+- 14:38:11.063 DEBUG: App::OnContextInitialized()
+- 14:38:11.063 DEBUG: Window max width/height = 1520/812
+- 14:38:11.078 DEBUG: GetBrowserWindow(): not found, hwnd = 1901882
+- 14:38:11.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:38:11.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:38:11.078 DEBUG: StoreBrowserWindow(): hwnd = 1901882
+- 14:38:11.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=0484B14EC71A5EB957FABE0F727B99D4 --mojo-platform-channel-handle=1788 /prefetch:2
+- 14:38:11.125 DEBUG: ClientHandler::OnAfterCreated()
+- 14:38:11.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:38:11.141 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:38:11.000 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=81D36FC3FDFE66C4CAE1C6494CF7759B --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=81D36FC3FDFE66C4CAE1C6494CF7759B --renderer-client-id=3 --mojo-platform-channel-handle=2384 /prefetch:1
+[0223/143811.993:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:38:12.031 DEBUG: OnBrowserCreated()
+- 14:38:13.391 INFO: GET 200 /css/styles.css
+- 14:38:13.391 INFO: GET 200 /
+- 14:38:13.406 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 14:38:13.406 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:38:13.438 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53550/
+- 14:38:30.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53550/
+- 14:38:30.781 INFO: POST 302 /php/signup.php
+- 14:38:30.891 INFO: GET 200 /index.php?success=Votre%20compte%20%C3%A0%20%C3%A9t%C3%A9%20cr%C3%A9e%20!
+- 14:38:30.906 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:38:30.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53550/index.php?success=Votre%20compte%20%C3%A0%20%C3%A9t%C3%A9%20cr%C3%A9e%20!
+- 14:38:32.688 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53550/index.php?success=Votre%20compte%20%C3%A0%20%C3%A9t%C3%A9%20cr%C3%A9e%20!
+- 14:38:32.781 INFO: GET 200 /login.php
+- 14:38:32.797 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:38:32.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53550/login.php
+- 14:38:37.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53550/login.php
+- 14:38:37.688 INFO: GET 200 /main.html
+- 14:38:37.703 INFO: POST 302 /php/login.php
+- 14:38:37.703 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 14:38:37.703 INFO: GET 200 /fonts/font-awesome-4.7.0/css/font-awesome.min.css
+- 14:38:37.703 INFO: GET 200 /vendor/animate/animate.css
+- 14:38:37.703 INFO: GET 200 /vendor/select2/select2.min.css
+- 14:38:37.703 INFO: GET 200 /css/util.css
+- 14:38:37.703 INFO: GET 200 /vendor/css-hamburgers/hamburgers.min.css
+- 14:38:37.531 DEBUG: OnContextCreated()
+- 14:38:37.703 INFO: GET 200 /vendor/jquery/jquery-3.2.1.min.js
+- 14:38:37.719 INFO: GET 200 /vendor/tilt/tilt.jquery.min.js
+- 14:38:37.719 INFO: GET 200 /vendor/bootstrap/js/bootstrap.min.js
+- 14:38:37.719 INFO: GET 200 /vendor/bootstrap/js/popper.js
+- 14:38:37.719 INFO: GET 200 /vendor/select2/select2.min.js
+- 14:38:37.719 INFO: GET 200 /js/game.js
+- 14:38:37.719 INFO: GET 200 /images/logo.jpg
+- 14:38:37.734 INFO: GET 200 /images/user.png
+- 14:38:37.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53550/main.html
+- 14:38:38.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53550/main.html
+- 14:38:38.953 DEBUG: OnContextCreated()
+- 14:38:38.125 INFO: GET 200 /home.php
+- 14:38:38.125 INFO: GET 200 /upload/suuu63f76c568d51d1.32541926.png
+- 14:38:38.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53550/home.php
+- 14:38:41.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53550/home.php
+- 14:38:41.281 DEBUG: OnContextCreated()
+- 14:38:41.469 INFO: GET 200 /edit.php
+- 14:38:41.469 INFO: GET 304 /upload/suuu63f76c568d51d1.32541926.png
+- 14:38:41.484 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:38:41.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53550/edit.php
+- 14:38:48.969 DEBUG: WM_DESTROY
+- 14:38:48.969 DEBUG: RemoveBrowserWindow(): hwnd = 1901882
+- 14:38:48.969 INFO: Stopping Mongoose web server
+- 14:38:48.969 DEBUG: Mongoose webserver stopped immediately
+- 14:38:48.969 DEBUG: OnBeforeClose() hwnd=656864
+- 14:38:48.969 DEBUG: RemoveBrowserWindow(): hwnd = 656864
+- 14:38:48.969 DEBUG: GetBrowserWindow(): not found, hwnd = 656864
+- 14:38:48.969 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:38:48.969 DEBUG: Calling CefQuitMessageLoop()
+- 14:38:48.797 DEBUG: OnBrowserDestroyed()
+- 14:38:48.000 INFO: Ended application
+- 14:38:48.000 INFO: --------------------------------------------------------
+- 10:20:43.016 INFO: --------------------------------------------------------
+- 10:20:43.016 INFO: Started application
+- 10:20:43.016 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 10:20:43.016 INFO: Log level = DEBUG4
+- 10:20:43.016 INFO: Starting Mongoose 3.9c web server
+- 10:20:43.016 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 10:20:43.016 INFO: Index files: index.html,index.php
+- 10:20:43.016 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 10:20:43.016 INFO: CGI pattern: **.php$
+- 10:20:43.016 INFO: Hide files patterns: 
+- 10:20:43.016 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:20:43.031 INFO: Web server url: http://127.0.0.1:60268/
+- 10:20:43.031 INFO: remote_debugging_port = 60106
+- 10:20:43.031 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=60106
+- 10:20:43.000 INFO: --------------------------------------------------------
+- 10:20:43.000 INFO: Started application
+- 10:20:43.000 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 10:20:43.000 INFO: Log level = DEBUG4
+- 10:20:43.000 INFO: Starting Mongoose 3.9c web server
+- 10:20:43.000 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 10:20:43.000 INFO: Index files: index.html,index.php
+- 10:20:43.000 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 10:20:43.000 INFO: CGI pattern: **.php$
+- 10:20:43.000 INFO: Hide files patterns: 
+- 10:20:43.000 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:20:43.016 INFO: Web server url: http://127.0.0.1:60269/
+- 10:20:43.016 INFO: remote_debugging_port = 65533
+- 10:20:43.016 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=65533
+- 10:20:44.406 DEBUG: App::OnContextInitialized()
+- 10:20:44.406 DEBUG: Window max width/height = 1520/812
+- 10:20:44.297 DEBUG: App::OnContextInitialized()
+- 10:20:44.297 DEBUG: Window max width/height = 1520/812
+- 10:20:44.328 DEBUG: GetBrowserWindow(): not found, hwnd = 197796
+- 10:20:44.328 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:20:44.437 DEBUG: GetBrowserWindow(): not found, hwnd = 394048
+- 10:20:44.437 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:20:44.344 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:20:44.344 DEBUG: StoreBrowserWindow(): hwnd = 197796
+- 10:20:44.453 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:20:44.453 DEBUG: StoreBrowserWindow(): hwnd = 394048
+ess process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=212260D5B176F8574FD0623461B1F6DD --mojo-platform-channel-handle=1796 /prefetch:2
+- 10:20:44.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=2180F131041D949E62F7329FC8296538 --mojo-platform-channel-handle=1804 /prefetch:2
+- 10:20:44.485 DEBUG: ClientHandler::OnAfterCreated()
+- 10:20:44.485 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:20:44.594 DEBUG: ClientHandler::OnAfterCreated()
+- 10:20:44.594 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:20:44.516 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:20:44.625 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:20:44.000 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=95309183E979D9FD04881070D670B579 --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=95309183E979D9FD04881070D670B579 --renderer-client-id=3 --mojo-platform-channel-handle=2312 /prefetch:1
+- 10:20:44.000 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=1DFFEE65A2091F23D561243FB42F82CB --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1DFFEE65A2091F23D561243FB42F82CB --renderer-client-id=3 --mojo-platform-channel-handle=2404 /prefetch:1
+- 10:20:45.063 DEBUG: OnBrowserCreated()
+- 10:20:45.062 DEBUG: OnBrowserCreated()
+[0224/102045.029:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0224/102045.030:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\webcache\GPUCache to C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\webcache\old_GPUCache_000
+[0224/102045.030:ERROR:disk_cache.cc(132)] Unable to create cache
+[0224/102045.030:ERROR:shader_disk_cache.cc(593)] Shader Cache Creation failed: -2
+[0224/102045.083:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0224/102045.084:ERROR:cache_util.cc(134)] Unable to move cache folder C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\webcache\Cache to C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\webcache\old_Cache_000
+[0224/102045.084:ERROR:disk_cache.cc(132)] Unable to create cache
+[0224/102045.368:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0224/102045.377:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:20:47.859 INFO: GET 200 /
+- 10:20:47.766 INFO: GET 200 /
+- 10:20:47.766 INFO: GET 200 /css/styles.css
+- 10:20:47.875 INFO: GET 200 /css/styles.css
+- 10:20:47.797 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:20:47.813 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 10:20:47.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60269/
+- 10:20:48.859 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:20:48.859 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 10:20:48.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60268/
+- 10:20:49.188 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60269/
+- 10:20:49.422 INFO: POST 302 /php/signup.php
+- 10:20:49.610 INFO: GET 200 /index.php?error=Full%20name%20is%20required&fname=&uname=
+- 10:20:49.625 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:20:49.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60269/index.php?error=Full%20name%20is%20required&fname=&uname=
+- 10:22:31.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60269/index.php?error=Full%20name%20is%20required&fname=&uname=
+- 10:22:31.938 INFO: GET 200 /login.php
+- 10:22:31.953 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:22:31.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60269/login.php
+- 10:22:37.313 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60269/login.php
+- 10:22:38.657 INFO: POST 302 /php/login.php
+- 10:22:38.688 INFO: GET 200 /main.html
+- 10:22:38.093 DEBUG: OnContextCreated()
+- 10:22:38.719 INFO: GET 200 /vendor/css-hamburgers/hamburgers.min.css
+- 10:22:38.719 INFO: GET 200 /vendor/select2/select2.min.css
+- 10:22:38.719 INFO: GET 200 /vendor/animate/animate.css
+- 10:22:38.719 INFO: GET 200 /fonts/font-awesome-4.7.0/css/font-awesome.min.css
+- 10:22:38.719 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 10:22:38.735 INFO: GET 200 /css/util.css
+- 10:22:38.782 INFO: GET 200 /js/game.js
+- 10:22:38.797 INFO: GET 200 /vendor/tilt/tilt.jquery.min.js
+- 10:22:38.797 INFO: GET 200 /images/logo.jpg
+- 10:22:38.797 INFO: GET 200 /vendor/bootstrap/js/popper.js
+- 10:22:38.813 INFO: GET 200 /images/user.png
+- 10:22:38.813 INFO: GET 200 /vendor/bootstrap/js/bootstrap.min.js
+- 10:22:38.828 INFO: GET 200 /vendor/jquery/jquery-3.2.1.min.js
+- 10:22:38.828 INFO: GET 200 /vendor/select2/select2.min.js
+- 10:22:38.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60269/main.html
+- 10:22:42.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60268/
+- 10:22:42.719 INFO: POST 302 /php/signup.php
+- 10:22:43.891 INFO: GET 200 /css/styles.css
+- 10:22:43.906 INFO: GET 200 /index.php?error=Full%20name%20is%20required&fname=&uname=
+- 10:22:43.516 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:22:43.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60268/index.php?error=Full%20name%20is%20required&fname=&uname=
+- 10:22:48.094 DEBUG: WM_DESTROY
+- 10:22:48.094 DEBUG: RemoveBrowserWindow(): hwnd = 394048
+- 10:22:48.094 INFO: Stopping Mongoose web server
+- 10:22:48.094 DEBUG: Mongoose webserver stopped immediately
+- 10:22:48.109 DEBUG: OnBeforeClose() hwnd=132322
+- 10:22:48.109 DEBUG: RemoveBrowserWindow(): hwnd = 132322
+- 10:22:48.109 DEBUG: GetBrowserWindow(): not found, hwnd = 132322
+- 10:22:48.109 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:22:48.109 DEBUG: Calling CefQuitMessageLoop()
+- 10:22:48.438 DEBUG: OnBrowserDestroyed()
+- 10:22:48.172 INFO: Ended application
+- 10:22:48.172 INFO: --------------------------------------------------------
+- 10:22:49.750 DEBUG: WM_DESTROY
+- 10:22:49.750 DEBUG: RemoveBrowserWindow(): hwnd = 197796
+- 10:22:49.750 INFO: Stopping Mongoose web server
+- 10:22:49.750 DEBUG: Mongoose webserver stopped immediately
+- 10:22:49.766 DEBUG: OnBeforeClose() hwnd=132326
+- 10:22:49.766 DEBUG: RemoveBrowserWindow(): hwnd = 132326
+- 10:22:49.766 DEBUG: GetBrowserWindow(): not found, hwnd = 132326
+- 10:22:49.766 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:22:49.766 DEBUG: Calling CefQuitMessageLoop()
+- 10:22:49.156 DEBUG: OnBrowserDestroyed()
+- 10:22:49.875 INFO: Ended application
+- 10:22:49.875 INFO: --------------------------------------------------------
+- 10:22:51.000 INFO: --------------------------------------------------------
+- 10:22:51.000 INFO: Started application
+- 10:22:51.000 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 10:22:51.000 INFO: Log level = DEBUG4
+- 10:22:51.000 INFO: Starting Mongoose 3.9c web server
+- 10:22:51.000 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 10:22:51.000 INFO: Index files: index.html,index.php
+- 10:22:51.000 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 10:22:51.000 INFO: CGI pattern: **.php$
+- 10:22:51.000 INFO: Hide files patterns: 
+- 10:22:51.000 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:22:51.016 INFO: Web server url: http://127.0.0.1:60403/
+- 10:22:51.016 INFO: remote_debugging_port = 65064
+- 10:22:51.016 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=65064
+- 10:22:52.110 DEBUG: App::OnContextInitialized()
+- 10:22:52.110 DEBUG: Window max width/height = 1520/812
+- 10:22:52.125 DEBUG: GetBrowserWindow(): not found, hwnd = 263338
+- 10:22:52.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:22:52.141 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:22:52.141 DEBUG: StoreBrowserWindow(): hwnd = 263338
+- 10:22:52.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=3BE15513E6F8C7D82FBBF34E07A565EB --mojo-platform-channel-handle=1780 /prefetch:2
+- 10:22:52.250 DEBUG: ClientHandler::OnAfterCreated()
+- 10:22:52.250 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:22:52.266 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:22:52.000 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=F39B4758FCF9808FAE7B68857D535ED2 --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=F39B4758FCF9808FAE7B68857D535ED2 --renderer-client-id=3 --mojo-platform-channel-handle=2384 /prefetch:1
+[0224/102252.308:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:22:52.062 DEBUG: OnBrowserCreated()
+- 10:22:53.703 INFO: GET 200 /css/styles.css
+- 10:22:53.703 INFO: GET 200 /
+- 10:22:53.750 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 10:22:53.750 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:22:53.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60403/
+- 10:22:55.157 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60403/
+- 10:22:55.391 INFO: POST 302 /php/signup.php
+- 10:22:55.578 INFO: GET 200 /index.php?error=Full%20name%20is%20required&fname=&uname=
+- 10:22:55.610 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:22:55.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60403/index.php?error=Full%20name%20is%20required&fname=&uname=
+- 10:22:59.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60403/index.php?error=Full%20name%20is%20required&fname=&uname=
+- 10:22:59.422 INFO: POST 302 /php/signup.php
+- 10:22:59.594 INFO: GET 200 /index.php?error=Full%20name%20is%20required&fname=&uname=
+- 10:22:59.610 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:22:59.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60403/index.php?error=Full%20name%20is%20required&fname=&uname=
+- 10:23:02.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60403/index.php?error=Full%20name%20is%20required&fname=&uname=
+- 10:23:02.750 INFO: GET 200 /login.php
+- 10:23:02.782 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:23:02.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60403/login.php
+- 10:23:08.688 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60403/login.php
+- 10:23:08.969 INFO: POST 302 /php/login.php
+- 10:23:09.125 INFO: GET 200 /login.php?error=Pseudonyme%20requis&uname=
+- 10:23:09.157 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:23:09.157 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60403/login.php?error=Pseudonyme%20requis&uname=
+- 10:23:12.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60403/login.php?error=Pseudonyme%20requis&uname=
+- 10:23:12.297 INFO: GET 200 /index.php
+- 10:23:12.328 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:23:12.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60403/index.php
+- 10:23:17.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60403/index.php
+- 10:23:17.032 INFO: GET 200 /login.php
+- 10:23:18.047 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:23:18.063 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60403/login.php
+- 10:23:19.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60403/login.php
+- 10:23:19.594 INFO: GET 200 /index.php
+- 10:23:19.625 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:23:19.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60403/index.php
+- 10:23:20.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60403/index.php
+- 10:23:20.485 INFO: POST 302 /php/signup.php
+- 10:23:20.672 INFO: GET 200 /index.php?error=Full%20name%20is%20required&fname=&uname=
+- 10:23:20.703 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:23:20.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60403/index.php?error=Full%20name%20is%20required&fname=&uname=
+- 10:24:23.938 DEBUG: WM_DESTROY
+- 10:24:23.938 DEBUG: RemoveBrowserWindow(): hwnd = 263338
+- 10:24:23.938 INFO: Stopping Mongoose web server
+- 10:24:23.938 DEBUG: Mongoose webserver stopped immediately
+- 10:24:23.953 DEBUG: OnBeforeClose() hwnd=197860
+- 10:24:23.953 DEBUG: RemoveBrowserWindow(): hwnd = 197860
+- 10:24:23.953 DEBUG: GetBrowserWindow(): not found, hwnd = 197860
+- 10:24:23.953 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:24:23.953 DEBUG: Calling CefQuitMessageLoop()
+- 10:24:23.672 DEBUG: OnBrowserDestroyed()
+- 10:24:23.016 INFO: Ended application
+- 10:24:23.016 INFO: --------------------------------------------------------
+- 10:24:26.000 INFO: --------------------------------------------------------
+- 10:24:26.000 INFO: Started application
+- 10:24:26.000 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 10:24:26.000 INFO: Log level = DEBUG4
+- 10:24:26.000 INFO: Starting Mongoose 3.9c web server
+- 10:24:26.000 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 10:24:26.000 INFO: Index files: index.html,index.php
+- 10:24:26.000 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 10:24:26.000 INFO: CGI pattern: **.php$
+- 10:24:26.000 INFO: Hide files patterns: 
+- 10:24:26.000 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:24:27.016 INFO: Web server url: http://127.0.0.1:60440/
+- 10:24:27.016 INFO: remote_debugging_port = 56392
+- 10:24:27.016 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=56392
+- 10:24:27.109 DEBUG: App::OnContextInitialized()
+- 10:24:27.109 DEBUG: Window max width/height = 1520/812
+- 10:24:27.125 DEBUG: GetBrowserWindow(): not found, hwnd = 328874
+- 10:24:27.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:24:27.141 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:24:27.141 DEBUG: StoreBrowserWindow(): hwnd = 328874
+- 10:24:27.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=17A5A8A167B283AED080870AECF0A597 --mojo-platform-channel-handle=1792 /prefetch:2
+- 10:24:27.234 DEBUG: ClientHandler::OnAfterCreated()
+- 10:24:27.234 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:24:27.250 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:24:27.000 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=A30DE882EFFC2C55001C3A92BB34BB1E --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=A30DE882EFFC2C55001C3A92BB34BB1E --renderer-client-id=3 --mojo-platform-channel-handle=2384 /prefetch:1
+[0224/102427.297:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:24:27.062 DEBUG: OnBrowserCreated()
+- 10:24:28.672 INFO: GET 200 /css/styles.css
+- 10:24:28.672 INFO: GET 200 /
+- 10:24:28.703 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:24:28.016 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 10:24:29.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60440/
+- 10:24:31.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60440/
+- 10:24:31.734 INFO: GET 200 /login.php
+- 10:24:31.766 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:24:31.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60440/login.php
+- 10:24:32.937 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60440/login.php
+- 10:24:33.156 INFO: GET 200 /index.php
+- 10:24:33.187 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:24:33.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60440/index.php
+- 10:24:33.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60440/index.php
+- 10:24:34.062 INFO: POST 302 /php/signup.php
+- 10:24:34.234 INFO: GET 200 /index.php?error=Veuillez%20saisir%20votre%20pr%C3%A9nom%20&fname=&uname=
+- 10:24:34.266 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:24:34.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60440/index.php?error=Veuillez%20saisir%20votre%20pr%C3%A9nom%20&fname=&uname=
+- 10:24:37.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60440/index.php?error=Veuillez%20saisir%20votre%20pr%C3%A9nom%20&fname=&uname=
+- 10:24:37.734 INFO: POST 302 /php/signup.php
+- 10:24:37.922 INFO: GET 200 /index.php?error=Veuillez%20saisir%20votre%20pseudonyme&fname=s&uname=
+- 10:24:37.953 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:24:37.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60440/index.php?error=Veuillez%20saisir%20votre%20pseudonyme&fname=s&uname=
+- 10:24:40.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60440/index.php?error=Veuillez%20saisir%20votre%20pseudonyme&fname=s&uname=
+- 10:24:40.812 INFO: POST 302 /php/signup.php
+- 10:24:40.000 INFO: GET 200 /index.php?error=Veuillez%20saisir%20votre%20mot%20de%20passe&fname=s&uname=s
+- 10:24:40.016 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:24:41.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60440/index.php?error=Veuillez%20saisir%20votre%20mot%20de%20passe&fname=s&uname=s
+- 10:24:47.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60440/index.php?error=Veuillez%20saisir%20votre%20mot%20de%20passe&fname=s&uname=s
+- 10:24:47.531 INFO: POST 302 /php/signup.php
+- 10:24:47.703 INFO: GET 200 /index.php?error=Veuillez%20saisir%20votre%20pseudonyme&fname=s&uname=
+- 10:24:47.734 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:24:47.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60440/index.php?error=Veuillez%20saisir%20votre%20pseudonyme&fname=s&uname=
+- 10:24:50.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60440/index.php?error=Veuillez%20saisir%20votre%20pseudonyme&fname=s&uname=
+- 10:24:50.281 INFO: GET 200 /login.php
+- 10:24:50.328 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:24:50.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60440/login.php
+- 10:24:52.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60440/login.php
+- 10:24:52.641 INFO: POST 302 /php/login.php
+- 10:24:52.844 INFO: GET 200 /login.php?error=Pseudonyme%20requis&uname=
+- 10:24:52.859 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:24:52.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60440/login.php?error=Pseudonyme%20requis&uname=
+- 10:24:56.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60440/login.php?error=Pseudonyme%20requis&uname=
+- 10:24:56.391 INFO: POST 302 /php/login.php
+- 10:24:56.594 INFO: GET 200 /login.php?error=Mot%20de%20passe%20requis&uname=s
+- 10:24:56.609 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:24:56.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60440/login.php?error=Mot%20de%20passe%20requis&uname=s
+- 10:25:00.250 DEBUG: WM_DESTROY
+- 10:25:00.250 DEBUG: RemoveBrowserWindow(): hwnd = 328874
+- 10:25:00.250 INFO: Stopping Mongoose web server
+- 10:25:00.250 DEBUG: Mongoose webserver stopped immediately
+- 10:25:00.250 DEBUG: OnBeforeClose() hwnd=394430
+- 10:25:00.250 DEBUG: RemoveBrowserWindow(): hwnd = 394430
+- 10:25:00.250 DEBUG: GetBrowserWindow(): not found, hwnd = 394430
+- 10:25:00.250 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:25:00.250 DEBUG: Calling CefQuitMessageLoop()
+- 10:25:00.969 DEBUG: OnBrowserDestroyed()
+- 10:25:00.312 INFO: Ended application
+- 10:25:00.312 INFO: --------------------------------------------------------
+- 10:54:26.015 INFO: --------------------------------------------------------
+- 10:54:26.015 INFO: Started application
+- 10:54:26.015 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 10:54:26.015 INFO: Log level = DEBUG4
+- 10:54:26.015 INFO: Starting Mongoose 3.9c web server
+- 10:54:26.015 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 10:54:26.015 INFO: Index files: index.html,index.php
+- 10:54:26.015 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 10:54:26.015 INFO: CGI pattern: **.php$
+- 10:54:26.015 INFO: Hide files patterns: 
+- 10:54:26.015 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:54:26.015 INFO: Web server url: http://127.0.0.1:55259/
+- 10:54:26.015 INFO: remote_debugging_port = 49380
+- 10:54:26.015 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=49380
+- 10:54:26.093 DEBUG: App::OnContextInitialized()
+- 10:54:26.093 DEBUG: Window max width/height = 1520/812
+- 10:54:26.125 DEBUG: GetBrowserWindow(): not found, hwnd = 394670
+- 10:54:26.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:54:26.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:54:26.125 DEBUG: StoreBrowserWindow(): hwnd = 394670
+- 10:54:26.234 DEBUG: ClientHandler::OnAfterCreated()
+- 10:54:26.234 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:54:26.016 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=CE535BBD79A47E25896D5E26D89AA996 --mojo-platform-channel-handle=1808 /prefetch:2
+- 10:54:26.265 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:54:26.000 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=9C229502BD78110D54316B2213FCC48B --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=9C229502BD78110D54316B2213FCC48B --renderer-client-id=3 --mojo-platform-channel-handle=2400 /prefetch:1
+- 10:54:26.063 DEBUG: OnBrowserCreated()
+[0224/105426.495:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:54:27.765 INFO: GET 200 /css/styles.css
+- 10:54:27.765 INFO: GET 200 /
+- 10:54:27.796 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 10:54:27.796 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:54:28.890 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55259/
+- 10:54:30.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55259/
+- 10:54:30.406 INFO: GET 200 /login.php
+- 10:54:30.453 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:54:30.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55259/login.php
+- 10:54:34.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55259/login.php
+- 10:54:34.765 INFO: GET 200 /main.html
+- 10:54:34.781 INFO: POST 302 /php/login.php
+- 10:54:34.781 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 10:54:34.781 INFO: GET 200 /vendor/animate/animate.css
+- 10:54:34.781 INFO: GET 200 /fonts/font-awesome-4.7.0/css/font-awesome.min.css
+- 10:54:34.469 DEBUG: OnContextCreated()
+- 10:54:34.781 INFO: GET 200 /vendor/css-hamburgers/hamburgers.min.css
+- 10:54:34.781 INFO: GET 200 /vendor/select2/select2.min.css
+- 10:54:34.781 INFO: GET 200 /css/util.css
+- 10:54:34.796 INFO: GET 200 /vendor/jquery/jquery-3.2.1.min.js
+- 10:54:34.828 INFO: GET 200 /vendor/select2/select2.min.js
+- 10:54:34.828 INFO: GET 200 /vendor/bootstrap/js/bootstrap.min.js
+- 10:54:34.828 INFO: GET 200 /vendor/tilt/tilt.jquery.min.js
+- 10:54:34.828 INFO: GET 200 /vendor/bootstrap/js/popper.js
+- 10:54:34.828 INFO: GET 200 /js/game.js
+- 10:54:34.828 INFO: GET 200 /images/logo.jpg
+- 10:54:34.843 INFO: GET 200 /images/user.png
+- 10:54:35.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55259/main.html
+[0224/105436.505:INFO:CONSOLE(37)] "La partie n'a pas encore commencé", source: http://127.0.0.1:55259/js/game.js (37)
+[0224/105452.082:INFO:CONSOLE(22)] "La partie est lancée", source: http://127.0.0.1:55259/js/game.js (22)
+[0224/105511.161:INFO:CONSOLE(6)] "La partie est lancée", source: http://127.0.0.1:55259/js/game.js (6)
+- 10:56:46.796 DEBUG: WM_DESTROY
+- 10:56:46.796 DEBUG: RemoveBrowserWindow(): hwnd = 394670
+- 10:56:46.796 INFO: Stopping Mongoose web server
+- 10:56:46.796 DEBUG: Mongoose webserver stopped immediately
+- 10:56:46.812 DEBUG: OnBeforeClose() hwnd=393794
+- 10:56:46.812 DEBUG: RemoveBrowserWindow(): hwnd = 393794
+- 10:56:46.812 DEBUG: GetBrowserWindow(): not found, hwnd = 393794
+- 10:56:46.812 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:56:46.812 DEBUG: Calling CefQuitMessageLoop()
+- 10:56:46.875 INFO: Ended application
+- 10:56:46.875 INFO: --------------------------------------------------------
+- 10:56:48.000 INFO: --------------------------------------------------------
+- 10:56:48.000 INFO: Started application
+- 10:56:48.000 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 10:56:48.000 INFO: Log level = DEBUG4
+- 10:56:48.000 INFO: Starting Mongoose 3.9c web server
+- 10:56:48.000 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 10:56:48.000 INFO: Index files: index.html,index.php
+- 10:56:48.000 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 10:56:48.000 INFO: CGI pattern: **.php$
+- 10:56:48.000 INFO: Hide files patterns: 
+- 10:56:48.000 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:56:48.016 INFO: Web server url: http://127.0.0.1:55285/
+- 10:56:48.016 INFO: remote_debugging_port = 53938
+- 10:56:48.016 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=53938
+- 10:56:48.094 DEBUG: App::OnContextInitialized()
+- 10:56:48.094 DEBUG: Window max width/height = 1520/812
+- 10:56:48.110 DEBUG: GetBrowserWindow(): not found, hwnd = 460206
+- 10:56:48.110 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:56:48.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:56:48.125 DEBUG: StoreBrowserWindow(): hwnd = 460206
+- 10:56:48.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=14AAAAB2F86EABE0B5A98F3FAC818243 --mojo-platform-channel-handle=1772 /prefetch:2
+- 10:56:48.203 DEBUG: ClientHandler::OnAfterCreated()
+- 10:56:48.203 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:56:48.235 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:56:48.000 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=267C100A96FCCA9F3AE7607121EC92F6 --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=267C100A96FCCA9F3AE7607121EC92F6 --renderer-client-id=3 --mojo-platform-channel-handle=2328 /prefetch:1
+[0224/105648.518:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:56:48.062 DEBUG: OnBrowserCreated()
+- 10:56:49.657 INFO: GET 200 /css/styles.css
+- 10:56:49.672 INFO: GET 200 /
+- 10:56:49.688 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 10:56:49.703 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:56:49.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55285/
+- 10:56:51.282 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55285/
+- 10:56:51.500 INFO: GET 200 /login.php
+- 10:56:51.516 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:56:51.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55285/login.php
+- 10:56:57.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55285/login.php
+- 10:56:58.078 INFO: POST 302 /php/login.php
+- 10:56:58.250 INFO: GET 200 /login.php?error=Mot%20de%20passe%20ou%20Pseudonyme%20incorrect%20!&uname=Admin
+- 10:56:58.282 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:56:58.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55285/login.php?error=Mot%20de%20passe%20ou%20Pseudonyme%20incorrect%20!&uname=Admin
+- 10:57:02.844 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55285/login.php?error=Mot%20de%20passe%20ou%20Pseudonyme%20incorrect%20!&uname=Admin
+- 10:57:02.016 INFO: GET 302 /php/login.php
+- 10:57:02.188 INFO: GET 200 /login.php?error=error
+- 10:57:02.219 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:57:02.235 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55285/login.php?error=error
+- 10:57:15.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55285/login.php?error=error
+- 10:57:15.313 INFO: POST 302 /php/login.php
+- 10:57:15.516 INFO: GET 200 /login.php?error=Mot%20de%20passe%20ou%20Pseudonyme%20incorrect%20!&uname=Admin
+- 10:57:15.532 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:57:15.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55285/login.php?error=Mot%20de%20passe%20ou%20Pseudonyme%20incorrect%20!&uname=Admin
+- 10:57:20.282 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55285/login.php?error=Mot%20de%20passe%20ou%20Pseudonyme%20incorrect%20!&uname=Admin
+- 10:57:20.578 INFO: GET 200 /main.html
+- 10:57:20.594 INFO: POST 302 /php/login.php
+- 10:57:20.312 DEBUG: OnContextCreated()
+- 10:57:20.594 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 10:57:20.594 INFO: GET 200 /fonts/font-awesome-4.7.0/css/font-awesome.min.css
+- 10:57:20.594 INFO: GET 200 /vendor/animate/animate.css
+- 10:57:20.594 INFO: GET 200 /vendor/select2/select2.min.css
+- 10:57:20.594 INFO: GET 200 /vendor/css-hamburgers/hamburgers.min.css
+- 10:57:20.594 INFO: GET 200 /css/util.css
+- 10:57:20.610 INFO: GET 200 /vendor/jquery/jquery-3.2.1.min.js
+- 10:57:20.625 INFO: GET 200 /vendor/bootstrap/js/bootstrap.min.js
+- 10:57:20.625 INFO: GET 200 /vendor/bootstrap/js/popper.js
+- 10:57:20.625 INFO: GET 200 /vendor/select2/select2.min.js
+- 10:57:20.625 INFO: GET 200 /vendor/tilt/tilt.jquery.min.js
+- 10:57:20.625 INFO: GET 200 /js/game.js
+- 10:57:20.641 INFO: GET 200 /images/logo.jpg
+- 10:57:20.657 INFO: GET 200 /images/user.png
+- 10:57:21.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55285/main.html
+[0224/105728.472:INFO:CONSOLE(37)] "La partie n'a pas encore commencé", source: http://127.0.0.1:55285/js/game.js (37)
+[0224/105742.929:INFO:CONSOLE(22)] "La partie est lancée", source: http://127.0.0.1:55285/js/game.js (22)
+[0224/105743.857:INFO:CONSOLE(256)] "Uncaught TypeError: Cannot read property 'innerText' of undefined", source: http://127.0.0.1:55285/js/game.js (256)
+[0224/105751.844:INFO:CONSOLE(33)] "La partie est lancée", source: http://127.0.0.1:55285/js/game.js (33)
+[0224/105753.455:INFO:CONSOLE(26)] "La partie n'a pas encore commencé", source: http://127.0.0.1:55285/js/game.js (26)
+- 10:57:55.157 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55285/main.html
+- 10:57:55.875 DEBUG: OnContextCreated()
+- 10:57:55.188 INFO: GET 304 /js/game.js
+- 10:57:55.360 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55285/main.html
+[0224/105756.748:INFO:CONSOLE(26)] "La partie n'a pas encore commencé", source: http://127.0.0.1:55285/js/game.js (26)
+[0224/105757.779:INFO:CONSOLE(37)] "La partie n'a pas encore commencé", source: http://127.0.0.1:55285/js/game.js (37)
+[0224/105814.937:INFO:CONSOLE(22)] "La partie est lancée", source: http://127.0.0.1:55285/js/game.js (22)
+[0224/105834.008:INFO:CONSOLE(6)] "La partie est lancée", source: http://127.0.0.1:55285/js/game.js (6)
+- 10:58:58.719 DEBUG: WM_DESTROY
+- 10:58:58.719 DEBUG: RemoveBrowserWindow(): hwnd = 460206
+- 10:58:58.719 INFO: Stopping Mongoose web server
+- 10:58:58.719 DEBUG: Mongoose webserver stopped immediately
+- 10:58:58.719 DEBUG: OnBeforeClose() hwnd=394674
+- 10:58:58.719 DEBUG: RemoveBrowserWindow(): hwnd = 394674
+- 10:58:58.719 DEBUG: GetBrowserWindow(): not found, hwnd = 394674
+- 10:58:58.719 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:58:58.719 DEBUG: Calling CefQuitMessageLoop()
+- 10:58:59.797 INFO: Ended application
+- 10:58:59.797 INFO: --------------------------------------------------------
+- 10:59:00.015 INFO: --------------------------------------------------------
+- 10:59:00.015 INFO: Started application
+- 10:59:00.015 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 10:59:00.015 INFO: Log level = DEBUG4
+- 10:59:00.015 INFO: Starting Mongoose 3.9c web server
+- 10:59:00.015 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 10:59:00.015 INFO: Index files: index.html,index.php
+- 10:59:00.015 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 10:59:00.015 INFO: CGI pattern: **.php$
+- 10:59:00.015 INFO: Hide files patterns: 
+- 10:59:00.015 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:59:00.015 INFO: Web server url: http://127.0.0.1:55322/
+- 10:59:00.031 INFO: remote_debugging_port = 63787
+- 10:59:00.031 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=63787
+- 10:59:00.140 DEBUG: App::OnContextInitialized()
+- 10:59:00.140 DEBUG: Window max width/height = 1520/812
+- 10:59:00.156 DEBUG: GetBrowserWindow(): not found, hwnd = 525744
+- 10:59:00.156 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:59:00.156 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:59:00.156 DEBUG: StoreBrowserWindow(): hwnd = 525744
+- 10:59:00.250 DEBUG: ClientHandler::OnAfterCreated()
+- 10:59:00.250 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:59:00.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=4C267CE73629A09F658A8FC497A7D237 --mojo-platform-channel-handle=1796 /prefetch:2
+- 10:59:00.281 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:59:00.000 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=3C0094DC600C462A2A1118FC22E175B2 --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=3C0094DC600C462A2A1118FC22E175B2 --renderer-client-id=3 --mojo-platform-channel-handle=2304 /prefetch:1
+- 10:59:00.063 DEBUG: OnBrowserCreated()
+[0224/105900.729:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:59:02.734 INFO: GET 200 /css/styles.css
+- 10:59:02.734 INFO: GET 200 /
+- 10:59:02.765 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 10:59:02.781 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:59:02.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55322/
+- 10:59:03.640 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55322/
+- 10:59:04.859 INFO: GET 200 /login.php
+- 10:59:04.890 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:59:04.890 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55322/login.php
+- 10:59:07.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55322/login.php
+- 10:59:07.140 INFO: POST 302 /php/login.php
+- 10:59:07.297 INFO: GET 200 /login.php?error=Mot%20de%20passe%20requis&uname=Admin
+- 10:59:07.328 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 10:59:07.343 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55322/login.php?error=Mot%20de%20passe%20requis&uname=Admin
+- 10:59:14.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55322/login.php?error=Mot%20de%20passe%20requis&uname=Admin
+- 10:59:14.468 INFO: GET 200 /main.html
+- 10:59:14.484 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 10:59:14.484 INFO: POST 302 /php/login.php
+- 10:59:14.484 INFO: GET 200 /vendor/animate/animate.css
+- 10:59:14.484 INFO: GET 200 /fonts/font-awesome-4.7.0/css/font-awesome.min.css
+- 10:59:14.484 INFO: GET 200 /vendor/css-hamburgers/hamburgers.min.css
+- 10:59:14.484 INFO: GET 200 /vendor/select2/select2.min.css
+- 10:59:14.484 INFO: GET 200 /css/util.css
+- 10:59:14.188 DEBUG: OnContextCreated()
+- 10:59:14.500 INFO: GET 200 /vendor/jquery/jquery-3.2.1.min.js
+- 10:59:14.531 INFO: GET 200 /vendor/select2/select2.min.js
+- 10:59:14.531 INFO: GET 200 /vendor/bootstrap/js/popper.js
+- 10:59:14.531 INFO: GET 200 /vendor/bootstrap/js/bootstrap.min.js
+- 10:59:14.531 INFO: GET 200 /js/game.js
+- 10:59:14.531 INFO: GET 200 /vendor/tilt/tilt.jquery.min.js
+- 10:59:14.547 INFO: GET 200 /images/logo.jpg
+- 10:59:14.562 INFO: GET 200 /images/user.png
+- 10:59:15.718 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55322/main.html
+[0224/105916.768:INFO:CONSOLE(13)] "La partie n'a pas encore commencé", source: http://127.0.0.1:55322/js/game.js (13)
+- 11:00:12.547 DEBUG: WM_DESTROY
+- 11:00:12.547 DEBUG: RemoveBrowserWindow(): hwnd = 525744
+- 11:00:12.547 INFO: Stopping Mongoose web server
+- 11:00:12.547 DEBUG: Mongoose webserver stopped immediately
+- 11:00:12.562 DEBUG: OnBeforeClose() hwnd=1115560
+- 11:00:12.562 DEBUG: RemoveBrowserWindow(): hwnd = 1115560
+- 11:00:12.562 DEBUG: GetBrowserWindow(): not found, hwnd = 1115560
+- 11:00:12.562 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:00:12.562 DEBUG: Calling CefQuitMessageLoop()
+- 11:00:12.625 INFO: Ended application
+- 11:00:12.625 INFO: --------------------------------------------------------
+- 00:27:05.016 INFO: --------------------------------------------------------
+- 00:27:05.016 INFO: Started application
+- 00:27:05.016 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 00:27:05.016 INFO: Log level = DEBUG4
+- 00:27:05.016 INFO: Starting Mongoose 3.9c web server
+- 00:27:05.016 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 00:27:05.016 INFO: Index files: index.html,index.php
+- 00:27:05.016 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 00:27:05.016 INFO: CGI pattern: **.php$
+- 00:27:05.016 INFO: Hide files patterns: 
+- 00:27:05.016 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 00:27:05.016 INFO: Web server url: http://127.0.0.1:60385/
+- 00:27:05.016 INFO: remote_debugging_port = 61761
+- 00:27:05.031 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=61761
+- 00:27:06.906 DEBUG: App::OnContextInitialized()
+- 00:27:06.906 DEBUG: Window max width/height = 1520/812
+- 00:27:06.922 DEBUG: GetBrowserWindow(): not found, hwnd = 3212764
+- 00:27:06.922 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:27:06.937 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:27:06.937 DEBUG: StoreBrowserWindow(): hwnd = 3212764
+- 00:27:06.984 DEBUG: ClientHandler::OnAfterCreated()
+- 00:27:06.984 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:27:06.000 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:27:06.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=AE54C68A7DE444B987E4D9387840C38F --mojo-platform-channel-handle=1784 /prefetch:2
+- 00:27:06.000 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=9C4A27EC658568C68594A545325DBC36 --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=9C4A27EC658568C68594A545325DBC36 --renderer-client-id=3 --mojo-platform-channel-handle=2360 /prefetch:1
+- 00:27:07.797 DEBUG: OnBrowserCreated()
+[0225/002707.522:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 00:27:09.750 INFO: GET 200 /
+- 00:27:09.766 INFO: GET 200 /css/styles.css
+- 00:27:09.781 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 00:27:09.781 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 00:27:09.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60385/
+- 00:27:43.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60385/
+- 00:27:43.000 INFO: POST 302 /php/signup.php
+- 00:27:43.094 INFO: GET 200 /index.php?error=Veuillez%20saisir%20votre%20pr%C3%A9nom%20&fname=&uname=
+- 00:27:43.109 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 00:27:43.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60385/index.php?error=Veuillez%20saisir%20votre%20pr%C3%A9nom%20&fname=&uname=
+- 00:27:45.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60385/index.php?error=Veuillez%20saisir%20votre%20pr%C3%A9nom%20&fname=&uname=
+- 00:27:45.266 INFO: POST 302 /php/signup.php
+- 00:27:45.359 INFO: GET 200 /index.php?error=Veuillez%20saisir%20votre%20pr%C3%A9nom%20&fname=&uname=
+- 00:27:45.375 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 00:27:45.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60385/index.php?error=Veuillez%20saisir%20votre%20pr%C3%A9nom%20&fname=&uname=
+- 00:43:55.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60385/index.php?error=Veuillez%20saisir%20votre%20pr%C3%A9nom%20&fname=&uname=
+- 00:43:55.187 INFO: POST 302 /php/signup.php
+- 00:43:55.297 INFO: GET 200 /index.php?error=Veuillez%20saisir%20votre%20pseudonyme&fname=S&uname=
+- 00:43:55.312 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 00:43:55.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60385/index.php?error=Veuillez%20saisir%20votre%20pseudonyme&fname=S&uname=
+- 00:43:58.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60385/index.php?error=Veuillez%20saisir%20votre%20pseudonyme&fname=S&uname=
+- 00:43:58.844 INFO: POST 302 /php/signup.php
+- 00:43:58.937 INFO: GET 200 /index.php?error=Veuillez%20saisir%20votre%20mot%20de%20passe&fname=S&uname=S
+- 00:43:58.953 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 00:43:58.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60385/index.php?error=Veuillez%20saisir%20votre%20mot%20de%20passe&fname=S&uname=S
+- 00:49:46.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60385/index.php?error=Veuillez%20saisir%20votre%20mot%20de%20passe&fname=S&uname=S
+- 00:49:46.203 INFO: POST 302 /php/signup.php
+- 00:49:46.281 INFO: GET 200 /index.php?error=^Vous%20ne%20pouvez%20pas%20envoyer%20de%20fichier%20de%20ce%20type%20!&fname=S&uname=S
+- 00:49:46.297 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 00:49:46.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60385/index.php?error=^Vous%20ne%20pouvez%20pas%20envoyer%20de%20fichier%20de%20ce%20type%20!&fname=S&uname=S
+- 00:50:04.750 DEBUG: WM_DESTROY
+- 00:50:04.750 DEBUG: RemoveBrowserWindow(): hwnd = 3212764
+- 00:50:04.750 INFO: Stopping Mongoose web server
+- 00:50:04.750 DEBUG: Mongoose webserver stopped immediately
+- 00:50:04.750 DEBUG: OnBeforeClose() hwnd=4195650
+- 00:50:04.750 DEBUG: RemoveBrowserWindow(): hwnd = 4195650
+- 00:50:04.750 DEBUG: GetBrowserWindow(): not found, hwnd = 4195650
+- 00:50:04.750 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:50:04.750 DEBUG: Calling CefQuitMessageLoop()
+- 00:50:04.594 DEBUG: OnBrowserDestroyed()
+- 00:50:04.781 INFO: Ended application
+- 00:50:04.781 INFO: --------------------------------------------------------
+- 00:50:06.000 INFO: --------------------------------------------------------
+- 00:50:06.000 INFO: Started application
+- 00:50:06.000 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 00:50:06.000 INFO: Log level = DEBUG4
+- 00:50:06.000 INFO: Starting Mongoose 3.9c web server
+- 00:50:06.000 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 00:50:06.000 INFO: Index files: index.html,index.php
+- 00:50:06.000 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 00:50:06.000 INFO: CGI pattern: **.php$
+- 00:50:06.000 INFO: Hide files patterns: 
+- 00:50:06.000 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 00:50:06.000 INFO: Web server url: http://127.0.0.1:60535/
+- 00:50:06.000 INFO: remote_debugging_port = 65346
+- 00:50:06.000 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=65346
+- 00:50:07.063 DEBUG: App::OnContextInitialized()
+- 00:50:07.063 DEBUG: Window max width/height = 1520/812
+- 00:50:07.078 DEBUG: GetBrowserWindow(): not found, hwnd = 984554
+- 00:50:07.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:50:07.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:50:07.078 DEBUG: StoreBrowserWindow(): hwnd = 984554
+- 00:50:07.016 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=689510372EE62C459A5E5F2A1B095D9D --mojo-platform-channel-handle=1788 /prefetch:2
+- 00:50:07.141 DEBUG: ClientHandler::OnAfterCreated()
+- 00:50:07.141 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:50:07.157 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:50:07.016 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=17CCE54493571722EBDFB817B464E433 --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=17CCE54493571722EBDFB817B464E433 --renderer-client-id=3 --mojo-platform-channel-handle=2388 /prefetch:1
+[0225/005007.151:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 00:50:07.047 DEBUG: OnBrowserCreated()
+- 00:50:08.407 INFO: GET 200 /css/styles.css
+- 00:50:08.407 INFO: GET 200 /
+- 00:50:08.422 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 00:50:08.438 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 00:50:08.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60535/
+- 00:50:13.985 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60535/
+- 00:50:14.110 INFO: POST 302 /php/signup.php
+- 00:50:14.203 INFO: GET 200 /index.php?error=Veuillez%20saisir%20votre%20pr%C3%A9nom%20&fname=&uname=
+- 00:50:14.219 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 00:50:14.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60535/index.php?error=Veuillez%20saisir%20votre%20pr%C3%A9nom%20&fname=&uname=
+- 00:50:18.735 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60535/index.php?error=Veuillez%20saisir%20votre%20pr%C3%A9nom%20&fname=&uname=
+- 00:50:18.907 INFO: POST 302 /php/signup.php
+- 00:50:18.985 INFO: GET 200 /index.php?success=Votre%20compte%20%C3%A0%20bien%20%C3%A9t%C3%A9%20cr%C3%A9e%20!
+- 00:50:18.000 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 00:50:18.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60535/index.php?success=Votre%20compte%20%C3%A0%20bien%20%C3%A9t%C3%A9%20cr%C3%A9e%20!
+- 00:50:23.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60535/index.php?success=Votre%20compte%20%C3%A0%20bien%20%C3%A9t%C3%A9%20cr%C3%A9e%20!
+- 00:50:23.547 INFO: GET 200 /login.php
+- 00:50:23.563 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 00:50:23.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60535/login.php
+- 00:50:24.860 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60535/login.php
+- 00:50:24.969 INFO: GET 200 /index.php
+- 00:50:24.985 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 00:50:24.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60535/index.php
+- 00:50:27.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60535/index.php
+- 00:50:27.469 INFO: GET 200 /login.php
+- 00:50:27.485 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 00:50:27.485 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60535/login.php
+- 00:50:29.235 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60535/login.php
+- 00:50:29.438 INFO: POST 302 /php/login.php
+- 00:50:29.453 INFO: GET 200 /main.html
+- 00:50:29.297 DEBUG: OnContextCreated()
+- 00:50:29.469 INFO: GET 200 /vendor/select2/select2.min.css
+- 00:50:29.469 INFO: GET 200 /fonts/font-awesome-4.7.0/css/font-awesome.min.css
+- 00:50:29.469 INFO: GET 200 /vendor/css-hamburgers/hamburgers.min.css
+- 00:50:29.485 INFO: GET 200 /vendor/animate/animate.css
+- 00:50:29.485 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 00:50:29.485 INFO: GET 200 /css/util.css
+- 00:50:29.516 INFO: GET 200 /js/game.js
+- 00:50:29.516 INFO: GET 200 /vendor/tilt/tilt.jquery.min.js
+- 00:50:29.532 INFO: GET 200 /images/logo.jpg
+- 00:50:29.532 INFO: GET 200 /images/user.png
+- 00:50:29.532 INFO: GET 200 /vendor/bootstrap/js/popper.js
+- 00:50:29.532 INFO: GET 200 /vendor/bootstrap/js/bootstrap.min.js
+- 00:50:29.547 INFO: GET 200 /vendor/select2/select2.min.js
+- 00:50:29.547 INFO: GET 200 /vendor/jquery/jquery-3.2.1.min.js
+- 00:50:29.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60535/main.html
+- 00:50:30.688 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60535/main.html
+- 00:50:30.672 DEBUG: OnContextCreated()
+- 00:50:30.844 INFO: GET 200 /home.php
+- 00:50:30.860 INFO: GET 200 /upload/default-pp.png
+- 00:50:30.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60535/home.php
+- 00:50:32.657 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60535/home.php
+- 00:50:32.610 DEBUG: OnContextCreated()
+- 00:50:32.782 INFO: GET 200 /edit.php
+- 00:50:32.813 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 00:50:32.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60535/edit.php
+- 00:50:37.485 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60535/edit.php
+- 00:50:37.469 DEBUG: OnContextCreated()
+- 00:50:37.657 INFO: POST 200 /php/edit.php
+- 00:50:37.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60535/php/edit.php
+- 00:51:06.313 DEBUG: WM_DESTROY
+- 00:51:06.313 DEBUG: RemoveBrowserWindow(): hwnd = 984554
+- 00:51:06.313 INFO: Stopping Mongoose web server
+- 00:51:06.313 DEBUG: Mongoose webserver stopped immediately
+- 00:51:06.313 DEBUG: OnBeforeClose() hwnd=2295268
+- 00:51:06.313 DEBUG: RemoveBrowserWindow(): hwnd = 2295268
+- 00:51:06.313 DEBUG: GetBrowserWindow(): not found, hwnd = 2295268
+- 00:51:06.313 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:51:06.313 DEBUG: Calling CefQuitMessageLoop()
+- 00:51:06.156 DEBUG: OnBrowserDestroyed()
+- 00:51:06.344 INFO: Ended application
+- 00:51:06.344 INFO: --------------------------------------------------------
+- 00:58:48.000 INFO: --------------------------------------------------------
+- 00:58:48.000 INFO: Started application
+- 00:58:48.000 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 00:58:48.000 INFO: Log level = DEBUG4
+- 00:58:48.000 INFO: Starting Mongoose 3.9c web server
+- 00:58:48.000 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 00:58:48.000 INFO: Index files: index.html,index.php
+- 00:58:48.000 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 00:58:48.000 INFO: CGI pattern: **.php$
+- 00:58:48.000 INFO: Hide files patterns: 
+- 00:58:48.000 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 00:58:48.015 INFO: Web server url: http://127.0.0.1:60622/
+- 00:58:48.015 INFO: remote_debugging_port = 60793
+- 00:58:48.015 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=60793
+- 00:58:48.062 DEBUG: App::OnContextInitialized()
+- 00:58:48.062 DEBUG: Window max width/height = 1520/812
+- 00:58:48.078 DEBUG: GetBrowserWindow(): not found, hwnd = 788090
+- 00:58:48.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:58:48.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:58:48.078 DEBUG: StoreBrowserWindow(): hwnd = 788090
+- 00:58:48.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=DC095BC2A7F6C05EE902602E15C484BB --mojo-platform-channel-handle=1348 /prefetch:2
+- 00:58:48.140 DEBUG: ClientHandler::OnAfterCreated()
+- 00:58:48.156 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:58:48.156 DEBUG: OnLoadingStateChange: loading=1, url=
+[0225/005848.887:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 00:58:48.000 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=85D8B0EDD6F745BB9CCB95185E817B62 --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=85D8B0EDD6F745BB9CCB95185E817B62 --renderer-client-id=3 --mojo-platform-channel-handle=2380 /prefetch:1
+- 00:58:48.031 DEBUG: OnBrowserCreated()
+- 00:58:50.406 INFO: GET 200 /css/styles.css
+- 00:58:50.422 INFO: GET 200 /
+- 00:58:50.437 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 00:58:50.437 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 00:58:50.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60622/
+- 00:58:52.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60622/
+- 00:58:52.000 INFO: GET 200 /login.php
+- 00:58:52.015 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 00:58:52.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60622/login.php
+[0225/021351.457:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 02:14:15.797 DEBUG: WM_DESTROY
+- 02:14:15.797 DEBUG: RemoveBrowserWindow(): hwnd = 788090
+- 02:14:15.797 INFO: Stopping Mongoose web server
+- 02:14:15.797 DEBUG: Mongoose webserver stopped immediately
+- 02:14:15.797 DEBUG: OnBeforeClose() hwnd=263990
+- 02:14:15.797 DEBUG: RemoveBrowserWindow(): hwnd = 263990
+- 02:14:15.797 DEBUG: GetBrowserWindow(): not found, hwnd = 263990
+- 02:14:15.797 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 02:14:15.797 DEBUG: Calling CefQuitMessageLoop()
+- 02:14:15.625 DEBUG: OnBrowserDestroyed()
+- 02:14:15.843 INFO: Ended application
+- 02:14:15.843 INFO: --------------------------------------------------------
+- 14:43:47.000 INFO: --------------------------------------------------------
+- 14:43:47.000 INFO: Started application
+- 14:43:47.000 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 14:43:47.000 INFO: Log level = DEBUG4
+- 14:43:47.000 INFO: Starting Mongoose 3.9c web server
+- 14:43:47.000 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 14:43:47.000 INFO: Index files: index.html,index.php
+- 14:43:47.000 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 14:43:47.000 INFO: CGI pattern: **.php$
+- 14:43:47.000 INFO: Hide files patterns: 
+- 14:43:47.000 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:43:47.000 INFO: Web server url: http://127.0.0.1:51720/
+- 14:43:47.000 INFO: remote_debugging_port = 60771
+- 14:43:47.000 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=60771
+- 14:43:47.125 DEBUG: App::OnContextInitialized()
+- 14:43:47.125 DEBUG: Window max width/height = 1520/812
+- 14:43:47.141 DEBUG: GetBrowserWindow(): not found, hwnd = 657212
+- 14:43:47.141 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:43:47.156 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:43:47.156 DEBUG: StoreBrowserWindow(): hwnd = 657212
+- 14:43:47.016 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=B772C4619B64CFB1D51ACBE52445D07C --mojo-platform-channel-handle=1840 /prefetch:2
+- 14:43:47.219 DEBUG: ClientHandler::OnAfterCreated()
+- 14:43:47.219 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:43:47.219 DEBUG: OnLoadingStateChange: loading=1, url=
+[0227/144347.355:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:43:47.000 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=C2B74BBBAB18815A3E0A1111054FA66C --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=C2B74BBBAB18815A3E0A1111054FA66C --renderer-client-id=3 --mojo-platform-channel-handle=2408 /prefetch:1
+- 14:43:47.062 DEBUG: OnBrowserCreated()
+- 14:43:48.750 INFO: GET 200 /css/styles.css
+- 14:43:48.750 INFO: GET 200 /
+- 14:43:48.437 DEBUG: OnContextCreated()
+- 14:43:48.750 INFO: GET 404 /images/oeilFerme.png
+- 14:43:48.781 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:43:48.781 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 14:43:48.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51720/
+- 14:45:59.109 DEBUG: WM_DESTROY
+- 14:45:59.109 DEBUG: RemoveBrowserWindow(): hwnd = 657212
+- 14:45:59.109 INFO: Stopping Mongoose web server
+- 14:45:59.109 DEBUG: Mongoose webserver stopped immediately
+- 14:45:59.109 DEBUG: OnBeforeClose() hwnd=919282
+- 14:45:59.109 DEBUG: RemoveBrowserWindow(): hwnd = 919282
+- 14:45:59.109 DEBUG: GetBrowserWindow(): not found, hwnd = 919282
+- 14:45:59.109 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:45:59.109 DEBUG: Calling CefQuitMessageLoop()
+- 14:45:59.812 DEBUG: OnBrowserDestroyed()
+- 14:45:59.141 INFO: Ended application
+- 14:45:59.141 INFO: --------------------------------------------------------
+- 14:46:00.000 INFO: --------------------------------------------------------
+- 14:46:00.000 INFO: Started application
+- 14:46:00.000 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 14:46:00.000 INFO: Log level = DEBUG4
+- 14:46:00.000 INFO: Starting Mongoose 3.9c web server
+- 14:46:00.000 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 14:46:00.000 INFO: Index files: index.html,index.php
+- 14:46:00.000 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 14:46:00.000 INFO: CGI pattern: **.php$
+- 14:46:00.000 INFO: Hide files patterns: 
+- 14:46:00.016 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:46:00.016 INFO: Web server url: http://127.0.0.1:51736/
+- 14:46:00.016 INFO: remote_debugging_port = 60464
+- 14:46:00.016 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=60464
+- 14:46:00.062 DEBUG: App::OnContextInitialized()
+- 14:46:00.062 DEBUG: Window max width/height = 1520/812
+- 14:46:00.078 DEBUG: GetBrowserWindow(): not found, hwnd = 8061766
+- 14:46:00.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:46:00.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:46:00.078 DEBUG: StoreBrowserWindow(): hwnd = 8061766
+- 14:46:00.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=2AA133FCEEE7275F52C4B9E742F57EE1 --mojo-platform-channel-handle=1780 /prefetch:2
+- 14:46:00.125 DEBUG: ClientHandler::OnAfterCreated()
+- 14:46:00.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:46:00.141 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:46:00.000 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=7978DD1F3EC81317247B33616BBC7CDB --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=7978DD1F3EC81317247B33616BBC7CDB --renderer-client-id=3 --mojo-platform-channel-handle=2380 /prefetch:1
+[0227/144600.893:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:46:00.031 DEBUG: OnBrowserCreated()
+- 14:46:02.391 INFO: GET 200 /css/styles.css
+- 14:46:02.406 INFO: GET 200 /
+- 14:46:02.234 DEBUG: OnContextCreated()
+- 14:46:02.422 INFO: GET 200 /images/oeilFerme.png
+- 14:46:02.422 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 14:46:02.422 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:46:02.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51736/
+- 14:46:06.391 INFO: GET 200 /images/oeilOuvert.png
+- 14:47:01.219 DEBUG: WM_DESTROY
+- 14:47:01.219 DEBUG: RemoveBrowserWindow(): hwnd = 8061766
+- 14:47:01.219 INFO: Stopping Mongoose web server
+- 14:47:01.219 DEBUG: Mongoose webserver stopped immediately
+- 14:47:01.219 DEBUG: OnBeforeClose() hwnd=3540802
+- 14:47:01.219 DEBUG: RemoveBrowserWindow(): hwnd = 3540802
+- 14:47:01.219 DEBUG: GetBrowserWindow(): not found, hwnd = 3540802
+- 14:47:01.219 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:47:01.219 DEBUG: Calling CefQuitMessageLoop()
+- 14:47:01.250 INFO: Ended application
+- 14:47:01.250 INFO: --------------------------------------------------------
+- 14:47:04.000 INFO: --------------------------------------------------------
+- 14:47:04.000 INFO: Started application
+- 14:47:04.000 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 14:47:04.000 INFO: Log level = DEBUG4
+- 14:47:04.000 INFO: Starting Mongoose 3.9c web server
+- 14:47:04.000 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 14:47:04.000 INFO: Index files: index.html,index.php
+- 14:47:04.000 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 14:47:04.000 INFO: CGI pattern: **.php$
+- 14:47:04.000 INFO: Hide files patterns: 
+- 14:47:04.000 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:47:04.015 INFO: Web server url: http://127.0.0.1:51759/
+- 14:47:04.015 INFO: remote_debugging_port = 54963
+- 14:47:04.015 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=54963
+- 14:47:05.062 DEBUG: App::OnContextInitialized()
+- 14:47:05.062 DEBUG: Window max width/height = 1520/812
+- 14:47:05.062 DEBUG: GetBrowserWindow(): not found, hwnd = 1640260
+- 14:47:05.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:47:05.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:47:05.078 DEBUG: StoreBrowserWindow(): hwnd = 1640260
+- 14:47:05.015 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=7732B3B18AAC1A7F6160D4DDE5626B1B --mojo-platform-channel-handle=1796 /prefetch:2
+- 14:47:05.125 DEBUG: ClientHandler::OnAfterCreated()
+- 14:47:05.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:47:05.140 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:47:05.000 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=5DA2236DF5AC638AC1BDB6796C96FC2E --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=5DA2236DF5AC638AC1BDB6796C96FC2E --renderer-client-id=3 --mojo-platform-channel-handle=2404 /prefetch:1
+[0227/144705.164:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:47:05.032 DEBUG: OnBrowserCreated()
+- 14:47:06.390 INFO: GET 200 /css/styles.css
+- 14:47:06.219 DEBUG: OnContextCreated()
+- 14:47:06.390 INFO: GET 200 /
+- 14:47:06.390 INFO: GET 200 /images/oeilFerme.png
+- 14:47:06.406 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 14:47:06.406 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:47:06.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51759/
+- 14:47:08.312 INFO: GET 200 /images/oeilOuvert.png
+- 14:47:10.390 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51759/
+- 14:47:10.329 DEBUG: OnContextCreated()
+- 14:47:10.500 INFO: GET 200 /login.php
+- 14:47:10.515 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:47:10.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51759/login.php
+- 14:50:08.921 DEBUG: WM_DESTROY
+- 14:50:08.921 DEBUG: RemoveBrowserWindow(): hwnd = 1640260
+- 14:50:08.921 INFO: Stopping Mongoose web server
+- 14:50:08.921 DEBUG: Mongoose webserver stopped immediately
+- 14:50:08.937 DEBUG: OnBeforeClose() hwnd=1246574
+- 14:50:08.937 DEBUG: RemoveBrowserWindow(): hwnd = 1246574
+- 14:50:08.937 DEBUG: GetBrowserWindow(): not found, hwnd = 1246574
+- 14:50:08.937 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:50:08.937 DEBUG: Calling CefQuitMessageLoop()
+- 14:50:08.766 DEBUG: OnBrowserDestroyed()
+- 14:50:08.953 INFO: Ended application
+- 14:50:08.953 INFO: --------------------------------------------------------
+- 14:50:11.016 INFO: --------------------------------------------------------
+- 14:50:11.016 INFO: Started application
+- 14:50:11.016 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 14:50:11.016 INFO: Log level = DEBUG4
+- 14:50:11.016 INFO: Starting Mongoose 3.9c web server
+- 14:50:11.016 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 14:50:11.016 INFO: Index files: index.html,index.php
+- 14:50:11.016 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 14:50:11.016 INFO: CGI pattern: **.php$
+- 14:50:11.016 INFO: Hide files patterns: 
+- 14:50:11.016 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:50:11.016 INFO: Web server url: http://127.0.0.1:51784/
+- 14:50:11.016 INFO: remote_debugging_port = 50454
+- 14:50:11.016 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=50454
+- 14:50:11.063 DEBUG: App::OnContextInitialized()
+- 14:50:11.063 DEBUG: Window max width/height = 1520/812
+- 14:50:11.078 DEBUG: GetBrowserWindow(): not found, hwnd = 2295288
+- 14:50:11.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:50:11.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:50:11.078 DEBUG: StoreBrowserWindow(): hwnd = 2295288
+- 14:50:11.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=B66181384C41377411D0163A3B8ECBEB --mojo-platform-channel-handle=1804 /prefetch:2
+- 14:50:11.141 DEBUG: ClientHandler::OnAfterCreated()
+- 14:50:11.141 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:50:11.156 DEBUG: OnLoadingStateChange: loading=1, url=
+[0227/145011.474:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:50:11.016 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=BB4523121F75FC2036675971B53A5A35 --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=BB4523121F75FC2036675971B53A5A35 --renderer-client-id=3 --mojo-platform-channel-handle=2380 /prefetch:1
+- 14:50:11.047 DEBUG: OnBrowserCreated()
+- 14:50:12.422 INFO: GET 200 /css/styles.css
+- 14:50:12.422 INFO: GET 200 /
+- 14:50:12.250 DEBUG: OnContextCreated()
+- 14:50:12.422 INFO: GET 200 /images/oeilFerme.png
+- 14:50:12.438 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 14:50:12.438 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:50:12.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51784/
+- 14:50:13.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51784/
+- 14:50:13.516 DEBUG: OnContextCreated()
+- 14:50:13.703 INFO: GET 200 /login.php
+- 14:50:14.719 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 14:50:14.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51784/login.php
+- 14:50:17.844 INFO: GET 200 /images/oeilOuvert.png
+- 14:50:42.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51784/login.php
+- 14:50:42.094 INFO: GET 200 /main.html
+- 14:50:42.922 DEBUG: OnContextCreated()
+- 14:50:42.094 INFO: POST 302 /php/login.php
+- 14:50:42.109 INFO: GET 200 /vendor/bootstrap/css/bootstrap.min.css
+- 14:50:42.109 INFO: GET 200 /fonts/font-awesome-4.7.0/css/font-awesome.min.css
+- 14:50:42.109 INFO: GET 200 /vendor/css-hamburgers/hamburgers.min.css
+- 14:50:42.109 INFO: GET 200 /vendor/animate/animate.css
+- 14:50:42.109 INFO: GET 200 /vendor/select2/select2.min.css
+- 14:50:42.109 INFO: GET 200 /css/util.css
+- 14:50:42.109 INFO: GET 200 /vendor/jquery/jquery-3.2.1.min.js
+- 14:50:42.125 INFO: GET 200 /js/game.js
+- 14:50:42.125 INFO: GET 200 /vendor/tilt/tilt.jquery.min.js
+- 14:50:42.125 INFO: GET 200 /vendor/bootstrap/js/bootstrap.min.js
+- 14:50:42.125 INFO: GET 200 /vendor/bootstrap/js/popper.js
+- 14:50:42.125 INFO: GET 200 /vendor/select2/select2.min.js
+- 14:50:42.125 INFO: GET 200 /images/logo.jpg
+- 14:50:42.141 INFO: GET 200 /images/user.png
+- 14:50:42.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51784/main.html
+- 14:50:45.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51784/main.html
+- 14:50:45.937 DEBUG: OnContextCreated()
+- 14:50:45.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51784/main.html
+- 14:53:07.859 DEBUG: WM_DESTROY
+- 14:53:07.859 DEBUG: RemoveBrowserWindow(): hwnd = 2295288
+- 14:53:07.859 INFO: Stopping Mongoose web server
+- 14:53:07.859 DEBUG: Mongoose webserver stopped immediately
+- 14:53:07.859 DEBUG: OnBeforeClose() hwnd=1377608
+- 14:53:07.859 DEBUG: RemoveBrowserWindow(): hwnd = 1377608
+- 14:53:07.859 DEBUG: GetBrowserWindow(): not found, hwnd = 1377608
+- 14:53:07.859 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:53:07.859 DEBUG: Calling CefQuitMessageLoop()
+- 14:53:07.703 DEBUG: OnBrowserDestroyed()
+- 14:53:07.891 INFO: Ended application
+- 14:53:07.891 INFO: --------------------------------------------------------
+- 01:37:12.015 INFO: --------------------------------------------------------
+- 01:37:12.015 INFO: Started application
+- 01:37:12.015 INFO: Logging to: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log
+- 01:37:12.015 INFO: Log level = DEBUG4
+- 01:37:12.015 INFO: Starting Mongoose 3.9c web server
+- 01:37:12.015 INFO: WWW directory: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\www
+- 01:37:12.015 INFO: Index files: index.html,index.php
+- 01:37:12.015 INFO: CGI interpreter: C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\php\php-cgi.exe
+- 01:37:12.015 INFO: CGI pattern: **.php$
+- 01:37:12.015 INFO: Hide files patterns: 
+- 01:37:12.015 INFO: CGI environment variables set: TMP=C:\Users\Ficello\AppData\Local\Temp\,TEMP=C:\Users\Ficello\AppData\Local\Temp\,TMPDIR=C:\Users\Ficello\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 01:37:12.031 INFO: Web server url: http://127.0.0.1:60127/
+- 01:37:12.031 INFO: remote_debugging_port = 55500
+- 01:37:12.031 DEBUG: Command line string for the browser process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --remote-debugging-port=55500
+- 01:37:14.468 DEBUG: App::OnContextInitialized()
+- 01:37:14.468 DEBUG: Window max width/height = 1520/812
+- 01:37:14.484 DEBUG: GetBrowserWindow(): not found, hwnd = 853334
+- 01:37:14.484 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 01:37:14.500 DEBUG: BrowserWindow::CreateBrowserControl()
+- 01:37:14.500 DEBUG: StoreBrowserWindow(): hwnd = 853334
+- 01:37:14.609 DEBUG: ClientHandler::OnAfterCreated()
+- 01:37:14.609 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 01:37:14.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,26,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x1002 --gpu-device-id=0x15d8 --gpu-driver-vendor="Advanced Micro Devices, Inc." --gpu-driver-version=30.0.13044.10001 --gpu-driver-date=3-2-2022 --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --service-request-channel-token=28F771D54A1048C94EF48E7F375972AE --mojo-platform-channel-handle=1776 /prefetch:2
+- 01:37:14.625 DEBUG: OnLoadingStateChange: loading=1, url=
+- 01:37:14.000 DEBUG: Command line string for the renderer process: "C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\memoCello.exe" --type=renderer --no-sandbox --primordial-pipe-token=E3EBAA60471A3953B62F40AA4B24E861 --lang=en-US --lang=en-US --log-file="C:\Users\Ficello\Desktop\MemoryGame-MemoCello-main\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E3EBAA60471A3953B62F40AA4B24E861 --renderer-client-id=3 --mojo-platform-channel-handle=2324 /prefetch:1
+- 01:37:14.047 DEBUG: OnBrowserCreated()
+[0228/013714.756:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 01:37:16.078 INFO: GET 200 /
+- 01:37:16.390 DEBUG: OnContextCreated()
+- 01:37:16.093 INFO: GET 200 /css/styles.css
+- 01:37:16.125 INFO: GET 200 /images/oeilFerme.png
+- 01:37:16.140 INFO: GET 404 /css/FredokaOne-Regular.ttf
+- 01:37:16.156 INFO: GET 200 /fonts/poppins/Poppins-Regular.ttf
+- 01:37:16.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60127/
+- 01:37:18.890 DEBUG: WM_DESTROY
+- 01:37:18.890 DEBUG: RemoveBrowserWindow(): hwnd = 853334
+- 01:37:18.890 INFO: Stopping Mongoose web server
+- 01:37:18.890 DEBUG: Mongoose webserver stopped immediately
+- 01:37:18.906 DEBUG: OnBeforeClose() hwnd=1115510
+- 01:37:18.906 DEBUG: RemoveBrowserWindow(): hwnd = 1115510
+- 01:37:18.906 DEBUG: GetBrowserWindow(): not found, hwnd = 1115510
+- 01:37:18.906 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 01:37:18.906 DEBUG: Calling CefQuitMessageLoop()
+- 01:37:18.968 INFO: Ended application
+- 01:37:18.968 INFO: --------------------------------------------------------

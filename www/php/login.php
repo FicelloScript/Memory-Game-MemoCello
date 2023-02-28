@@ -1,6 +1,6 @@
 <?php 
 session_start();
-
+// Vérifie si on a les informations et les mettre dans la base de donnée
 if(isset($_POST['uname']) && 
    isset($_POST['pass'])){
 
@@ -11,6 +11,7 @@ if(isset($_POST['uname']) &&
 
     $data = "uname=".$uname;
     
+    // Erreur si un des champs est vide
     if(empty($uname)){
     	$em = "Pseudonyme requis";
     	header("Location: ../login.php?error=$em&$data");
@@ -34,8 +35,8 @@ if(isset($_POST['uname']) &&
           $id =  $user['id'];
           $pp =  $user['pp'];
 
-          if($username === $uname){
-             if(password_verify($pass, $password)){
+          if($username === $uname){ //Vérifie si le pseudonyme est correct
+             if(password_verify($pass, $password)){ //Vérifie si le mot de passe est correct
                  $_SESSION['id'] = $id;
                  $_SESSION['fname'] = $fname;
                  $_SESSION['pp'] = $pp;

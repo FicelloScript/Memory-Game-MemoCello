@@ -16,12 +16,13 @@
     	      method="post">
 
     		<h4 class="display-4  fs-1">Connexion</h4><br>
-    		<?php if(isset($_GET['error'])){ ?>
+    		<?php if(isset($_GET['error'])){ ?><!-- Alerte dans le cas ou il y a une erreur -->
     		<div class="alert alert-danger" role="alert">
 			  <?php echo $_GET['error']; ?>
 			</div>
 		    <?php } ?>
 
+		<!-- Champs texte formulaire bootstrap -->
 		  <div class="mb-3">
 		    <label class="form-label">Pseudonyme</label>
 		    <input type="text" 
@@ -34,12 +35,31 @@
 		    <label class="form-label">Mot de passe</label>
 		    <input type="password" 
 		           class="form-control"
-		           name="pass">
+		           name="pass"
+				   id = "pass">
+				   <img src="images/oeilFerme.png" id="afficher" onclick="afficherMdp()" style='width: 50px; padding-top: 5px; cursor: pointer'>
+
 		  </div>
+		<!-- Fin Champs texte formulaire bootstrap -->
+
 		  
 		  <button type="submit" class="btn btn-primary">Connexion</button>
 		  <a href="index.php" class="link-secondary">Inscription</a>
 		</form>
     </div>
+	<script>
+		e = true;
+		function afficherMdp() {
+			if(e) {
+				document.getElementById("pass").setAttribute("type","text");
+				document.getElementById("afficher").src="images/oeilOuvert.png";
+				e = false;
+			} else {
+				document.getElementById("pass").setAttribute("type","password");
+				document.getElementById("afficher").src="images/oeilFerme.png";
+				e = true;
+			}
+		}
+	</script>
 </body>
 </html>

@@ -17,13 +17,13 @@
     	      enctype="multipart/form-data">
 
     		<h4 class="display-4  fs-1">Créer un compte</h4><br>
-    		<?php if(isset($_GET['error'])){ ?>
+    		<?php if(isset($_GET['error'])){ ?> <!-- Alerte dans le cas ou il y a une erreur -->
     		<div class="alert alert-danger" role="alert">
 			  <?php echo $_GET['error']; ?>
 			</div>
 		    <?php } ?>
 
-		    <?php if(isset($_GET['success'])){ ?>
+		    <?php if(isset($_GET['success'])){ ?> <!-- Alerte le cas ou il n'y a pas d'erreur -->
     		<div class="alert alert-success" role="alert">
 			  <?php echo $_GET['success']; ?>
 			</div>
@@ -36,6 +36,7 @@
 		           value="<?php echo (isset($_GET['fname']))?$_GET['fname']:"" ?>">
 		  </div>
 
+		  <!-- Champs texte formulaire bootstrap -->
 		  <div class="mb-3">
 		    <label class="form-label">Pseudonyme</label>
 		    <input type="text" 
@@ -48,19 +49,39 @@
 		    <label class="form-label">Mot de passe</label>
 		    <input type="password" 
 		           class="form-control"
-		           name="pass">
+		           name="pass"
+				   id="pass"
+				   >
+				<img src="images/oeilFerme.png" id="afficher" onclick="afficherMdp()" style='width: 50px; padding-top: 5px; cursor: pointer'>
 		  </div>
 
 		  <div class="mb-3">
 		    <label class="form-label">Photo de profil</label>
 		    <input type="file" 
 		           class="form-control"
-		           name="pp">
+		           name="pp"
+				   id="pass">
 		  </div>
-		  
+		  <!-- Fin Champs texte formulaire bootstrap -->
+ 
+		
 		  <button type="submit" class="btn btn-primary">Inscription</button>
 		  <a href="login.php" class="link-secondary">Connexion</a>
 		</form>
     </div>
+	<script> //Permet d'afficher et cacher le mot de passe
+		e = true;
+		function afficherMdp() {
+			if(e) {
+				document.getElementById("pass").setAttribute("type","text");
+				document.getElementById("afficher").src="images/oeilOuvert.png";
+				e = false;
+			} else {
+				document.getElementById("pass").setAttribute("type","password");
+				document.getElementById("afficher").src="images/oeilFerme.png";
+				e = true;
+			}
+		}
+	</script>
 </body>
 </html>

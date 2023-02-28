@@ -40,18 +40,18 @@ if(isset($_POST['fname']) &&
             if(in_array($img_ex_to_lc, $allowed_exs)){
                $new_img_name = uniqid($uname, true).'.'.$img_ex_to_lc;
                $img_upload_path = '../upload/'.$new_img_name;
-               // Delete old profile pic
+               // Supprime l'ancienne photo de profil
                $old_pp_des = "../upload/$old_pp";
                if(unlink($old_pp_des)){
-               	  // just deleted
+               	  // Supprime
                	  move_uploaded_file($tmp_name, $img_upload_path);
                }else {
-                  // error or already deleted
+                  // Erreur ou déjà supprimer
                	  move_uploaded_file($tmp_name, $img_upload_path);
                }
                
 
-               // update the Database
+               // Met à jour la base de donnée
                $sql = "UPDATE users 
                        SET fname=?, username=?, pp=?
                        WHERE id=?";

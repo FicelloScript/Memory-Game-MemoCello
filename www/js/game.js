@@ -1,46 +1,21 @@
 //&=========== Zone de jeu ================
-// Lorsque la partie est lancée impossible de changer de nombre de cartes, du coup le tableau Highscore n'a aucun intéret car il faut recharger la page et donc ca supprime les scores
-// Créer une fonction qui va supprimer le innerHTML puis appeler la function choissie afficherXX() pour la remplacer
-function afficher36() {
-    if(state.gameStarted) {
-        console.log("La partie est lancée");
-        generateGame36();
-    }
-    else if(selectors.board.classList.contains('flipped')) {
-        selectors.board.classList.remove('flipped'); 
-    }
-    else {
-        console.log("La partie n'a pas encore commencé");
-        generateGame36();
-    }
 
+//* ========= Lancement de la partie sur le clic des boutons =========== 
+
+function afficher36() {   
+    generateGame36();
 }
 
-
 function afficher20() {
-    if(state.gameStarted) {
-        console.log("La partie est lancée");
-        generateGame20();
-    }
-    else {
-        console.log("La partie n'a pas encore commencé");
-        generateGame20();
-    }   
+    generateGame20();
 }
 
 function afficher16() {
-    if(state.gameStarted) {
-        console.log("La partie est lancée");
-        generateGame();
-    }
-    else {
-        console.log("La partie n'a pas encore commencé");
-        generateGame();
-    }   
+    generateGame();
+ 
 }
 
-
-const selectors = {
+const selectors = {                                                 //définir les selectors(parties du code pour accéder au HTML) pour les réutilisers ensuite avec selectors.nomduselector
     boardContainer: document.querySelector('.board-container'),
     board: document.querySelector('.board'),
     moves: document.querySelector('.moves'),
@@ -49,76 +24,73 @@ const selectors = {
     win: document.querySelector('.win')
 }
 
-const state = {
+const state = {                     //définir les états et valeurs de base afin de les réutiliser ensuite avec state.nom
     gameStarted: false,
     flippedCards: 0,
     totalFlips: 0,
     totalTime: 0,
     loop: null,
-    finish: false
-    
+    finish: false  
 }
-// let finish = false;
 
-const shuffle = array => {
+const shuffle = array => {                  //fonction pour randomiser les cartes, mélanger les valeurs au sein d'un tableau
     const clonedArray = [...array];
 
-    for (let index = clonedArray.length - 1; index > 0; index--) {
-        const randomIndex = Math.floor(Math.random() * (index + 1));
+    for (let index = clonedArray.length - 1; index > 0; index--) {          
+        const randomIndex = Math.floor(Math.random() * (index + 1));    //définir une constante qui va définir un index de tableau aléatoire
         const original = clonedArray[index];
 
-        clonedArray[index] = clonedArray[randomIndex];
+        clonedArray[index] = clonedArray[randomIndex];              //clonedArray est le nouveau tableau géneré dans laquelle les valeurs sont dans un ordre différent
         clonedArray[randomIndex] = original;
     }
     return clonedArray;
 }
 
-const pickRandom = (array, items) => {
-    const clonedArray = [...array];
-    const randomPicks = [];
+const pickRandom = (array, items) => {                       //fonction qui va sélectionner un nombre donné d'élements dans un tableau 
+    const clonedArray = [...array];         
+    const randomPicks = [];                                 // pour stocker les éléments séléctionnés dans le tableau clonedArray
 
-    for (let index = 0; index < items; index++) {
+    for (let index = 0; index < items; index++) {           //définir les index des élements du tableau aléatoirement
         const randomIndex = Math.floor(Math.random() * clonedArray.length);
         
         randomPicks.push(clonedArray[randomIndex]);
-        clonedArray.splice(randomIndex, 1);
+        clonedArray.splice(randomIndex, 1);                 //ajouter dans le tableau en supprimant l'ancien élément du tableau clonedArray
     }
-
     return randomPicks;
 }
 
+//* ============= Générer les parties ==============
 
-function generateGame() {
+function generateGame() {                                               //générer pour 16 cartes 
     const board = document.getElementsByClassName('board');
     const btnRecommencer = document.getElementById('btnRecommencer');
-    if(board.length > 0) {
+    if(board.length > 0) {              //Si il y a déja une partie affichée alors la supprimer, remettre le compteur et le timer à 0 et la relancer
         board[0].remove();
         state.gameStarted = false;
         state.totalFlips = 0;
         state.totalTime = 0;
+        state.flippedCards = 0;
         clearInterval(state.loop);
-        selectors.boardContainer.classList.remove('flipped');  
+        selectors.boardContainer.classList.remove('flipped');    //supprimer l'affichage de victoire si l'ancienne partie est terminée
     }
-    //Si la partie est terminée cachée les élements lorsqu'une partie est relancée
+    //Réglage du bug du bouton recommencer
     if(state.finish == true){
-        console.log('ici');
-        btnRecommencer.classList.add('hidden');
+        btnRecommencer.classList.add('hidden');             //Pour régler le bug qui affiche le bouton recommencer au milieu de l'écran en pleine partie, ici le cacher
         state.finish = false;
     }    
 
-    let game = document.getElementById('game');
+    let game = document.getElementById('game');         //se placer dans la div avec comme Id game 
     game.classList.remove('hidden');
     game.classList.remove('top');
-    const emojis = ['🪥', '🪒', '🚿', '🧻', '📱', '💊', '🚽', '🧼', '✏️', '💡','🥼','👓','👞','🩺','👩🏼‍⚕️','📺','💳','👔']
-    const picks = pickRandom(emojis, (4 * 4) / 2);
+    const emojis = ['🛁', '🪒', '🚿', '🧻', '📱', '💊', '🚽', '🧼', '✏️', '💡','🥼','👓','👞','🩺','👩🏼‍⚕️','📺','💳','👔']         //définir les émojis qui s'afficheront en jeu
+    const picks = pickRandom(emojis, (4 * 4) / 2);              //définir la taille du jeu en appelant la fonction pour mélanger l'ordre des éléments dans le tableau et y mettre les émojis 
     
-    const items = shuffle([...picks, ...picks])
-    //Définir la taille du plateau et le générer
-    // createNode
+    const items = shuffle([...picks, ...picks])             //mélanger le tableau grâce à la fonction shuffle
     const cards =  document.createElement('div');
 
-        cards.innerHTML = `<div class="board" data-dimension="6" style="grid-template-columns: repeat(${4}, auto)">
-            ${items.map(item => `
+//créer le tableau en HTML en utilisant .map() pour ajouter dans chaque card un élement du tableau items
+        cards.innerHTML = `<div class="board" data-dimension="6" style="grid-template-columns: repeat(${4}, auto)">             
+            ${items.map(item => `       
                 <div class="card">
                     <div class="card-front"></div>
                     <div class="card-back">${item}</div>
@@ -127,7 +99,7 @@ function generateGame() {
        </div>`
 
     let boardId = document.getElementById('board');
-    boardId.insertBefore(cards, boardId.childNodes[0]);
+    boardId.insertBefore(cards, boardId.childNodes[0]);    //insérer les cartes dans la zone de jeu board
 }
 
 function generateGame20() {
@@ -138,6 +110,7 @@ function generateGame20() {
         state.gameStarted = false;
         state.totalFlips = 0;
         state.totalTime = 0;
+        state.flippedCards = 0;
         clearInterval(state.loop);
         selectors.boardContainer.classList.remove('flipped');  
     }
@@ -152,12 +125,10 @@ function generateGame20() {
     game.classList.remove('hidden');
     game.classList.remove('top');
 
-    const emojis = ['🪥', '🪒', '🚿', '🧻', '📱', '💊', '🚽', '🧼', '✏️', '💡','🥼','👓','👞','🩺','👩🏼‍⚕️','📺','💳','👔']
+    const emojis = ['🛁', '🪒', '🚿', '🧻', '📱', '💊', '🚽', '🧼', '✏️', '💡','🥼','👓','👞','🩺','👩🏼‍⚕️','📺','💳','👔']
     const picks = pickRandom(emojis, (5 * 4) / 2);
 
     const items = shuffle([...picks, ...picks])
-    //Définir la taille du plateau et le générer
-    // createNode
     const cards =  document.createElement('div');
         cards.innerHTML = `<div class="board" data-dimension="6" style="grid-template-columns: repeat(${5}, auto)">
             ${items.map(item => `
@@ -180,9 +151,9 @@ function generateGame36() {
         state.gameStarted = false;
         state.totalFlips = 0;
         state.totalTime = 0;
+        state.flippedCards = 0;
         clearInterval(state.loop);
-        selectors.boardContainer.classList.remove('flipped');  
-        
+        selectors.boardContainer.classList.remove('flipped');     
     }
     //Si la partie est terminée cachée les élements lorsqu'une partie est relancée
     if(state.finish == true){
@@ -198,13 +169,10 @@ function generateGame36() {
     game.classList.add('top');
     HTMLcontainer.style.minHeight = '150vh';
 
-    const emojis = ['🪥', '🪒', '🚿', '🧻', '📱', '💊', '🚽', '🧼', '✏️', '💡','🥼','👓','👞','🩺','👩🏼‍⚕️','📺','💳','👔']
+    const emojis = ['🛁', '🪒', '🚿', '🧻', '📱', '💊', '🚽', '🧼', '✏️', '💡','🥼','👓','👞','🩺','👩🏼‍⚕️','📺','💳','👔']
     const picks = pickRandom(emojis, (6 * 6) / 2);
 
     const items = shuffle([...picks, ...picks])
-    
-    //Définir la taille du plateau et le générer
-    // createNode
     const cards =  document.createElement('div');
         cards.innerHTML = `<div class="board topDiff" data-dimension="6" style="grid-template-columns: repeat(${6}, auto)">
             ${items.map(item => `
@@ -226,17 +194,17 @@ const startGame = () => {
         state.totalTime++  //lancement du Timer
         selectors.moves.innerText = `${state.totalFlips} coups`
         selectors.timer.innerText = `temps: ${state.totalTime} sec`
-    }, 1000)
+    }, 1000)   
 }
 
 const flipBackCards = () => {     //si les cartes ne correspondent pas les retourner
-    document.querySelectorAll('.card:not(.matched)').forEach(card => {
-        card.classList.remove('flipped');
+    document.querySelectorAll('.card:not(.matched)').forEach(card => {              //Si les deux cartes retournées ne matchent pas
+        card.classList.remove('flipped');                                           //Retirer l'attribut flipped de ces cartes ce qui va les retourner 
     })
-    state.flippedCards = 0;
+    state.flippedCards = 0;             //remettre à 0 le nombre de cartes retournées pour pouvoir rejouer
 }
 
-const flipCard = card => {
+const flipCard = card => {              //lorsqu'une carte est retournée 
     state.flippedCards++;
 
     if (!state.gameStarted) {
@@ -244,9 +212,7 @@ const flipCard = card => {
     }
  
     if (state.flippedCards <= 2) {      //tirage des cartes
-        card.classList.add('flipped');                                                              
-        //test
-
+        card.classList.add('flipped');                  //ajouter la classe flipped à la carte pour la retourner avec une animation CSS                                                
     }
 
     //& Vérifications des cartes
@@ -254,7 +220,7 @@ const flipCard = card => {
         const flippedCards = document.querySelectorAll('.flipped:not(.matched)');
         state.totalFlips++;
         if (flippedCards[0].innerText === flippedCards[1].innerText) {              //si les deux cartes correspondes alors leur ajouter la class 'matched' afin qu'elle prennent les attributs de cette classe et reste retournées
-            flippedCards[0].classList.add('matched');
+            flippedCards[0].classList.add('matched');                               //Ajout de la classe matched pour qu'elle prennent les propriété CSS de cette derniere et ne se retourne pas 
             flippedCards[1].classList.add('matched');
         }
         setTimeout(() => {    //Si elles ne matchent pas appeler la fonction flipBackCards qui les retourneras pour les cacher
@@ -265,8 +231,8 @@ const flipCard = card => {
     //& Si on ne peut pas découvrir d'autres cartes alors fin de la partie 
     if (!document.querySelectorAll('.card:not(.flipped)').length) {         //Si il n'y a plus de cartes alors afficher la page de victoire
         setTimeout(() => {
-            selectors.boardContainer.classList.add('flipped');       
-            selectors.win.innerHTML = `
+            selectors.boardContainer.classList.add('flipped');              //Retourner la zone de jeu avec une animation CSS pour la cacher
+            selectors.win.innerHTML = `                                     
                 <span class="win-text">
                     Bravo vous avez gagné !<br />
                     avec <span class="highlight">${state.totalFlips}</span> coups<br />
@@ -294,9 +260,9 @@ const attachEventListeners = () => {
         const eventTarget = event.target;
         const eventParent = eventTarget.parentElement;
 
-        if (eventTarget.className.includes('card') && !eventParent.className.includes('flipped')) {
+        if (eventTarget.className.includes('card') && !eventParent.className.includes('flipped')) {             //Si la carte cliquée n'est pas retournée, alors la retourner
             flipCard(eventParent);
-        } else if (eventTarget.nodeName === 'card' && !eventTarget.className.includes('disabled')) {
+        } else if (eventTarget.nodeName === 'card' && !eventTarget.className.includes('disabled')) {            //Si la carte cliquée n'a pas la classe disabled(alors elle est donc affichée) alors lancer la partie 
             startGame();
         }
     })
@@ -326,10 +292,3 @@ const displayHistory = () => {
 
 
 
-//preshot de questions : "Transformer le compteur de secondes à un compteur en minutes+secondes"
-//preshot de questions : "Modifier la page de victoire pour que le texte affiche 'Bravo USER vous avez gagné!'"
-//preshot de questions : RegEx pour les mot de passes
-//preshot de questions : animations JQuery ou CSS
-
-//TODO Changer de jeu sur le clic du bouton
-//TODO training test unitaires
