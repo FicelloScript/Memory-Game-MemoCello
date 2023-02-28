@@ -1,5 +1,5 @@
 <?php 
-
+// Vérifie si on a les informations et les mettre dans la base de donnée
 if(isset($_POST['fname']) && 
    isset($_POST['uname']) &&  
    isset($_POST['pass'])){
@@ -11,7 +11,8 @@ if(isset($_POST['fname']) &&
     $pass = $_POST['pass'];
 
     $data = "fname=".$fname."&uname=".$uname;
-    
+	
+     // Erreur si un des champs est vide
     if (empty($fname)) {
     	$em = "Full name is required";
     	header("Location: ../index.php?error=$em&$data");
@@ -25,7 +26,17 @@ if(isset($_POST['fname']) &&
     	header("Location: ../index.php?error=$em&$data");
 	    exit;
     }else {
-      // hashing the password
+
+      //Verifie le mot de passe
+   //    if (preg_match('/[A-Z]/', $pass) && preg_match('/[0-9]/', $pass) && preg_match('/\W/', $pass)) {
+   // Le mot de passe est valide
+   //   } else {
+   //       $em = "Le mot de passe doit contenir au moins une majuscule, un caractère spécial et un chiffre.";
+   //       header("Location: ../index.php?error=$em");
+   //       exit;
+   //   }
+	    
+      // Hacher le mot de passe
       $pass = password_hash($pass, PASSWORD_DEFAULT);
 
       if (isset($_FILES['pp']['name']) AND !empty($_FILES['pp']['name'])) {
@@ -36,38 +47,24 @@ if(isset($_POST['fname']) &&
          $error = $_FILES['pp']['error'];
          
          if($error === 0){
-            $img_ex = pathinfo($img_name, PATHINFO_EXTENSION);
+            $img_ex = pathinfo($img_name, PATHINFO_EXTENSION); //Permet de retourner l'extension de l'image
             $img_ex_to_lc = strtolower($img_ex);
 
             $allowed_exs = array('jpg', 'jpeg', 'png');
-            $username = $_POST['username'];
+            $username = $_POST['uname'];
 
-            if(in_array($img_ex_to_lc, $allowed_exs)){
+            if(in_array($img_ex_to_lc, $allowed_exs)){ //Vérifie si l'extension de l'image utiliser est correcte
                $new_img_name = uniqid($uname, true).'.'.$img_ex_to_lc;
                $img_upload_path = '../upload/'.$new_img_name;
                move_uploaded_file($tmp_name, $img_upload_path);
 
-               //TEST
-               // if(!isset($_FILES['pp']['name']) OR empty($_FILES['pp']['name'])) {
-               //    $default_img_name = "pdpdefault.jpg";
-               //    $img_upload_path = '../upload/'.$default_img_name;
-               
-               //    // Insert into Database       
-                 
-               // $sql = "INSERT INTO users(fname, username, password, pp) 
-               //      VALUES(?,?,?,?)";
-               //    $stmt = $conn->prepare($sql);
-               //    $stmt->execute([$fname, $uname, $pass, $default_img_name]);
-               // }
-               //TEST
-
-               // Insert into Database
+               // Inserer dans la base de donnée
                $sql = "INSERT INTO users(fname, username, password, pp) 
                  VALUES(?,?,?,?)";
                $stmt = $conn->prepare($sql);
                $stmt->execute([$fname, $uname, $pass, $new_img_name]);
                
-               header("Location: ../index.php?success=Votre compte à été crée !");
+              header("Location: ../index.php?success=Votre compte à été crée !");
                 exit;
 
             }else {
@@ -93,6 +90,7 @@ if(isset($_POST['fname']) &&
       exit;
       }
       {
+	// Envoyer à la base de donnée si les informations sont complètes
        	$sql = "INSERT INTO users(fname, username, password) 
        	        VALUES(?,?,?)";
        	$stmt = $conn->prepare($sql);

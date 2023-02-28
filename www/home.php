@@ -1,7 +1,8 @@
 <?php 
 session_start();
 
-if (isset($_SESSION['id']) && isset($_SESSION['fname'])) {
+if (isset($_SESSION['id']) && isset($_SESSION['fname'])) { // Vérifie si on a les informations et les mettre dans la base de donnée
+
 
 include "db_conn.php";
 include 'php/User.php';
@@ -24,8 +25,10 @@ $user = getUserById($_SESSION['id'], $conn);
     <div class="d-flex justify-content-center align-items-center vh-100">
     	
     	<div class="shadow w-350 p-3 text-center">
-    		<img src="upload/<?=$user['pp']?>"
-    		     class="img-fluid rounded-circle">
+            <!--Affiche la photo de profil de l'utilisateur -->
+    		<img src="upload/<?=$user['pp']?>"  
+    		     class="img-fluid rounded-circle"> 
+            <!--Affiche le Prénom de l'utilisateur -->
             <h3 class="display-4 "><?=$user['fname']?></h3>
             <a href="edit.php" class="btn btn-primary">
             	Modifier le profil
